@@ -1,9 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,800&display=swap');
 
-body {
-    font-family: 'Open Sans', Helvetica, sans-serif;
+* {
+margin: 0;
+padding: 0;
+border: none;
 }
 
+:root {
+    --dark-blue: #201767;
+    --blue: #004491;
+    --orange: #f27355;
+    --white: #ffffff;
+  }
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+/* header and navigation style */
+
+header {
+    background-color: var(--dark-blue);
+    height: 75px;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#logo {
+    float: left;
+    margin-left: 30px;
+    font-size: 200%;
+    color: var(--white);
+    text-decoration: none;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: var(--orange);
+}
 h1 {
     font-family: 'Playfair Display', 'Times New Roman', serif;
 }
