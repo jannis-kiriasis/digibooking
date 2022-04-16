@@ -58,6 +58,10 @@ header {
     color: var(--orange);
 }
 
+.active {
+    color: var(--orange) !important;
+}
+
 /* Hero styling */
 
 h1 {
