@@ -148,17 +148,51 @@ margin: 2% auto;
 .card {
     width: 29%;
     margin: 2%;
-    float: left;
+    display: inline-block;
 }
 
 .card > img {
     margin-top: 32px;
     margin-bottom: 32px;
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 100px;
 }
 
 .card > p {
     margin-top: 2em;
 }
 
+/* footer */
+
+footer {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+footer > div > div {
+    float: left;
+    width: 29%;
+    margin: 2%;
+}
+
+.socials {
+    color: var(--white);
+}
+
+.socials i {
+    color: var(--white);
+}
+footer li {
+    list-style-type: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+footer hr {
+    height: 16px;
+}
