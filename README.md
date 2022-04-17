@@ -1,108 +1,162 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Project 1 - Digibooking
 
-Welcome Jannis Kiriasis,
+## Introduction
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Digibooking.com is a digital marketing agency offering services to hotels and B&Bs.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+There is a good demand worldwide for hotel, B&B and rental businesses marketing. 
 
-## Gitpod Reminders
+Just look at Google Ads keyword planner data. In the UK only there are 1k monthly searches for “hotel marketing agency”. This doesn’t include variation of the keyphrase and keywords for associated services such as “hotel seo services” or “hotel digital marketing agency”.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Google “Hotel marketing agency” and you’ll find million of results. Literally.
 
-`python3 -m http.server`
+In the past, tourists used to explore and book their holidays by going to physical travel agents. 
 
-A blue button should appear to click: _Make Public_,
+Today, travellers book online on the many Online Travel Agents (OTAs) available (booking.com, hotels.com etc).
 
-Another blue button should appear to click: _Open Browser_.
+Hotel managers had to learn how to use OTAs, generate online direct bookings and manage all the digital marketing channels to remain competitive.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Nowadays, being online isn’t enough. 
 
-A blue button should appear to click: _Make Public_,
+Some hotels hire entire digital marketing teams, others, outsource digital marketing services from agencies.
 
-Another blue button should appear to click: _Open Browser_.
+Digibooking.com specialise in digital marketing services for hotels to grow their online bookings from Google Search.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Add website screenshots]
 
-To log into the Heroku toolbelt CLI:
+### Who is digibooking.com for?
+Digibooking.com is for hotel and B&Bs managers looking for Google Search services and a direct booking system. Hotel managers looking to create a website from scratch are also welcome.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### What digibooking.com offer:
+- SEO
+- PPC
+- Google hotel manager
+- Direct booking system with channel manager
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Table of contents
+-	User Experience (UX)
+-	Features
+-	Where user stories meet features
+-	Wireframes
+-	Designs
+-	Technologies Used
+-	Testing
+-	Known Bugs
+-	Deployment
+-	Acknowledgements
 
-------
+## User Experience (UX)
+Now that we know digibooking.com offering and their target audience, we are looking at the needs website visitors may have.
 
-## Release History
+## User stories
+### First time visitor goals
+- As a first-time visitor, I want to easily understand the main purpose of the site
+- As a first-time visitor, I want to be able to navigate the website easily
+- As a first-time visitor, I want to understand what services digibooking.com offer
+- As a first-time visitor, I want to get an idea of how trusted the website (agency) is and what their customers say
+- As a first-time visitor, I want to understand what the quality of the work delivered for existing clients is
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Returning visitor goals
+- As a returning visitor, I want to get in touch with digibooking.com and find out the best way to contact
+- As a returning visitor, I want to know when the best time is to get in touch with digibooking.com customer service or sales teams
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Frequent visitor goals
+- As a frequent visitor, I want to find the agency address in case of an on-site meeting
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Features
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Global features
+This is a list of features that appear on every page.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+1.	Logo and navigation 
+The logo and navigation menu is the same across every page of the website. This allows users to find their way through the website easily. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+As an industry standard, the logo links back to the homepage.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+2.	Hero image with page headline
+The hero image and headline block appear on every page. It is tailored to the page content. It gives a good first idea of the page content.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+3.	Footer
+The footer is also the same across every page of the website. It includes contact details, address and social networks external links.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Homepage features
+4.	Hero image with page headline
+5.	Top clients
+6.	Value proposition
+7.	Awards
+8.	What we do
+9.	Testimonial
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Services features
+10.	Hero image with page headline
+11.	PPC services
+12.	Seo services
+13.	Google Bookings
+14.	Direct bookings
+15.	Testimonial
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Contact features
+16.	Hero image with page headline
+17.	Contact form
+18.	Testimonial
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Where user stories meet features
+In the following paragraph I’m going to explain what features address user needs (user stories).
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+|User stories                                                                                                                       |Features                      |
+|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+| As a first-time visitor, I want to easily understand   the main purpose of the site                                                    | 4, 6, 8                           |
+| As a first-time visitor, I want to be able to   navigate the website easily                                                            | 1, plus various internal links    |
+| As a first-time visitor, I want to understand what   services digibooking.com offer                                                    | 8, 10,   11, 12, 13, 14           |
+| As a first-time visitor, I want to get an idea of   how trusted the website (agency) is and what their customers say                   | 5, 7, 9,   15, 18                 |
+| As a first-time visitor, I want to understand what   the quality of the work delivered for existing clients is                         | 7                                 |
+| As a returning visitor, I want to get in touch with   digibooking.com and find out the best way to contact                             | 3, 17                             |
+| As a returning visitor, I want to know when the best   time is to get in touch with digibooking.com customer service or sales teams    | 3, 17                             |
+| As a frequent visitor, I want to find the agency   address in case of an on-site meeting                                               | 3, 17                             |
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Wireframes
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Design
 
-------
+### Colors
 
-## FAQ about the uptime script
+[ add images]
 
-**Why have you added this script?**
+Color contrast test https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Google Fonts
+Playfair display for headings
+Open Sans for body
 
-**How will this affect me?**
+## Attributions
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Helo Illustrations 
+<a href='https://www.freepik.com/vectors/hotel-booking'>Hotel booking vector created by pch.vector - www.freepik.com</a>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Hotel logos 
+By rawpixels.com
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Icons 
+SEO icon
+<a href="https://www.flaticon.com/free-icons/keyword" title="keyword icons">Keyword icons created by Smashicons - Flaticon</a>
 
-**So….?**
+PPC icon
+<a href="https://www.flaticon.com/free-icons/money" title="money icons">Money icons created by itim2101 - Flaticon</a>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Hotel Booking Icon
+<a href="https://www.flaticon.com/free-icons/booking" title="Booking icons">Booking icons created by Icongeek26 - Flaticon</a>
 
-**Can I opt out?**
+## Issues fixed
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Fit 2 columns with width 50% and margin on the same row. The total width + margin is above 100%. Solution: use box-sizing:border-box and the margin width is included in the column width.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Make the button left and right sides completely rounded. Setting a border-radius: 50% will make my button completely rounder. Solution: Set the border-radius to the same dimension as the left and right padding.
 
-**Anything more?**
+Center align horizontally 4 images in a div. Solution: used display: flex and justify-content: center; https://stackoverflow.com/questions/10989238/center-image-horizontally-within-a-div 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Tools Used
 
----
-
-Happy coding!
+- Resize and edit images: https://pixlr.com/
+- Transform png to svg: https://convertio.co/it/png-svg/
+- Social icons: Fontawesome https://fontawesome.com/
+- Other icons: https://www.flaticon.com/ 
