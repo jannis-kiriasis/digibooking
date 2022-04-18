@@ -132,8 +132,11 @@ Open Sans for body
 
 ### Hotel booking illustration attributions
 [Hotel booking vector created by pch.vector - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)
+
 [Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking) 
+
 [Helpline vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/helpline)
+
 [Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking) 
 
 ### Hotel logos 
@@ -143,7 +146,9 @@ By [rawpixels.com](https://www.rawpixels.com)
 ### Icons 
 
 [Keyword icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/keyword)
+
 [Money icons created by itim2101 - Flaticon](https://www.flaticon.com/free-icons/money")
+
 [Booking icons created by Icongeek26 - Flaticon](https://www.flaticon.com/free-icons/booking)
 
 ## Issues fixed
