@@ -241,6 +241,34 @@ margin: 2% auto;
     box-sizing: border-box;
 }
 
+/* contact form */
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 32px 0;
+}
+
+form > div {
+    margin: 16px 0;
+}
+
+label, .text-input {
+    width: 300px;
+}
+
+form > input {
+    width: -webkit-fill-available;
+}
+
+.text-input {
+    border: 1px solid var(--dark-blue);
+    border-radius: 5px;
+    padding: 16px;
+    display: block;
+}
+
 /* footer */
 
 footer {
