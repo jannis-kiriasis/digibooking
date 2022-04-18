@@ -114,7 +114,7 @@ In the following paragraph I’m going to explain what features address user nee
 | As a returning visitor, I want to know when the best   time is to get in touch with digibooking.com customer service or sales teams    | 3, 17                             |
 | As a frequent visitor, I want to find the agency   address in case of an on-site meeting                                               | 3, 17                             |
 
-Wireframes
+## Wireframes
 
 ## Design
 
@@ -130,7 +130,7 @@ Open Sans for body
 
 ## Attributions
 
-### Helo Illustrations 
+### Hero Illustrations 
 <a href='https://www.freepik.com/vectors/hotel-booking'>Hotel booking vector created by pch.vector - www.freepik.com</a>
 
 ### Hotel logos 
