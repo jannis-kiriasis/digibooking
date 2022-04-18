@@ -130,8 +130,11 @@ Open Sans for body
 
 ## Attributions
 
-### Hero Illustrations 
+### Hotel booking illustration attributions
 <a href='https://www.freepik.com/vectors/hotel-booking'>Hotel booking vector created by pch.vector - www.freepik.com</a>
+<a href='https://www.freepik.com/vectors/hotel-booking'>Hotel booking vector created by vectorjuice - www.freepik.com</a>
+<a href='https://www.freepik.com/vectors/helpline'>Helpline vector created by vectorjuice - www.freepik.com</a>
+<a href='https://www.freepik.com/vectors/hotel-booking'>Hotel booking vector created by vectorjuice - www.freepik.com</a>
 
 ### Hotel logos 
 By rawpixels.com
@@ -160,3 +163,4 @@ Center align horizontally 4 images in a div. Solution: used display: flex and ju
 - Transform png to svg: https://convertio.co/it/png-svg/
 - Social icons: Fontawesome https://fontawesome.com/
 - Other icons: https://www.flaticon.com/ 
+- Create transparent baackground for illustrations: https://www.adobe.com/express/feature/image/transparent-background

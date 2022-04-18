@@ -162,6 +162,72 @@ margin: 2% auto;
     margin-top: 2em;
 }
 
+/* search-services */
+
+.search-services-right {
+    background: var(--light-blue);
+    height: 300px;
+    width: 100%;
+}
+
+#seo-image {
+    background-image: url('../images/destination-search-900x600.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 50%;
+    float: left;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.right-about-text {
+    width: 45%;
+    float: right;
+    margin-top: 32px;
+    box-sizing: border-box;
+}
+
+.right-about-text li, .left-about-text li {
+    list-style-type: none;
+}
+
+.search-services-left {
+    height: 300px;
+    width: 100%;
+}
+
+#ppc-image {
+    background-image: url('../images/hotel-search-900x600.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 50%;
+    float: right;
+    height: 300px;
+    box-sizing: border-box;
+    margin: 0 30px;
+}
+
+.left-about-text {
+    width: 46%;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-top: 32px;
+    box-sizing: border-box;
+}
+
+#booking-image {
+    background-image: url('../images/room-booking-900x600.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 50%;
+    float: left;
+    height: 300px;
+    box-sizing: border-box;
+}
+
 /* footer */
 
 footer {
