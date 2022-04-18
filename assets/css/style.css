@@ -168,6 +168,7 @@ margin: 2% auto;
     background: var(--light-blue);
     height: 300px;
     width: 100%;
+    margin: 0 auto;
 }
 
 #seo-image {
