@@ -122,7 +122,7 @@ In the following paragraph I’m going to explain what features address user nee
 
 [ add images]
 
-Color contrast test https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767
+[Color contrast test results](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767)
 
 ### Google Fonts
 Playfair display for headings
@@ -131,23 +131,20 @@ Open Sans for body
 ## Attributions
 
 ### Hotel booking illustration attributions
-<a href='https://www.freepik.com/vectors/hotel-booking'>Hotel booking vector created by pch.vector - www.freepik.com</a>
-<a href='https://www.freepik.com/vectors/hotel-booking'>Hotel booking vector created by vectorjuice - www.freepik.com</a>
-<a href='https://www.freepik.com/vectors/helpline'>Helpline vector created by vectorjuice - www.freepik.com</a>
-<a href='https://www.freepik.com/vectors/hotel-booking'>Hotel booking vector created by vectorjuice - www.freepik.com</a>
+[Hotel booking vector created by pch.vector - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)
+[Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking) 
+[Helpline vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/helpline)
+[Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking) 
 
 ### Hotel logos 
-By rawpixels.com
+
+By [rawpixels.com](https://www.rawpixels.com)
 
 ### Icons 
-SEO icon
-<a href="https://www.flaticon.com/free-icons/keyword" title="keyword icons">Keyword icons created by Smashicons - Flaticon</a>
 
-PPC icon
-<a href="https://www.flaticon.com/free-icons/money" title="money icons">Money icons created by itim2101 - Flaticon</a>
-
-Hotel Booking Icon
-<a href="https://www.flaticon.com/free-icons/booking" title="Booking icons">Booking icons created by Icongeek26 - Flaticon</a>
+[Keyword icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/keyword)
+[Money icons created by itim2101 - Flaticon](https://www.flaticon.com/free-icons/money")
+[Booking icons created by Icongeek26 - Flaticon](https://www.flaticon.com/free-icons/booking)
 
 ## Issues fixed
 
@@ -155,12 +152,12 @@ Fit 2 columns with width 50% and margin on the same row. The total width + margi
 
 Make the button left and right sides completely rounded. Setting a border-radius: 50% will make my button completely rounder. Solution: Set the border-radius to the same dimension as the left and right padding.
 
-Center align horizontally 4 images in a div. Solution: used display: flex and justify-content: center; https://stackoverflow.com/questions/10989238/center-image-horizontally-within-a-div 
+Center align horizontally 4 images in a div. Solution: used display: flex and justify-content: center; [stackoverflow](https://stackoverflow.com/questions/10989238/center-image-horizontally-within-a-div)
 
 ## Tools Used
 
-- Resize and edit images: https://pixlr.com/
-- Transform png to svg: https://convertio.co/it/png-svg/
-- Social icons: Fontawesome https://fontawesome.com/
-- Other icons: https://www.flaticon.com/ 
-- Create transparent baackground for illustrations: https://www.adobe.com/express/feature/image/transparent-background
+- Resize and edit images: [Pixlr.com](https://pixlr.com/)
+- Transform png to svg: [Convertio.co](https://convertio.co/it/png-svg/)
+- Social icons: [Fontawesome](https://fontawesome.com/)
+- Other icons: [Flaticon](https://www.flaticon.com/)
+- Create transparent baackground for illustrations: [Adobe](https://www.adobe.com/express/feature/image/)
