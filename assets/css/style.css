@@ -58,6 +58,10 @@ h3 {
     text-decoration: none;
 }
 
+p {
+    font-size: 18px;
+}
+
 /* header and navigation style */
 
 header {
@@ -174,12 +178,12 @@ margin: 2% auto;
 
 /* search-services */
 
-.search-services-right {
+.search-services-light-blue {
     background: var(--light-blue);
-    height: 300px;
     width: 100%;
-    margin: 0 auto;
+    height: 450px;
 }
+
 
 #seo-image {
     background-image: url('../images/destination-search-900x600.png');
@@ -188,23 +192,23 @@ margin: 2% auto;
     background-size: contain;
     width: 50%;
     float: left;
-    height: 300px;
-    box-sizing: border-box;
+    height: 380px;
+    margin: 35px 0;
 }
 
 .right-about-text {
-    width: 45%;
+    width: 50%;
     float: right;
     margin-top: 32px;
-    box-sizing: border-box;
 }
 
-.right-about-text li, .left-about-text li {
-    list-style-type: none;
+.right-about-text > div {
+    width: 70%;
+    margin: 0 auto;
 }
 
-.search-services-left {
-    height: 300px;
+.search-services-white {
+    height: 450px;
     width: 100%;
 }
 
@@ -215,17 +219,23 @@ margin: 2% auto;
     background-size: contain;
     width: 50%;
     float: right;
-    height: 300px;
-    box-sizing: border-box;
-    margin: 0 30px;
+    height: 380px;
+    margin: 35px 0;
 }
 
 .left-about-text {
-    width: 46%;
-    margin-left: 20%;
-    margin-right: auto;
+    width: 50%;
+    float: left;
     margin-top: 32px;
-    box-sizing: border-box;
+}
+
+.left-about-text > div {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.left-about-text > div > p, .right-about-text > div > p {
+    margin-top: 32px;
 }
 
 #booking-image {
@@ -235,8 +245,8 @@ margin: 2% auto;
     background-size: contain;
     width: 50%;
     float: left;
-    height: 300px;
-    box-sizing: border-box;
+    height: 380px;
+    margin: 35px 0;
 }
 
 /* contact form */
