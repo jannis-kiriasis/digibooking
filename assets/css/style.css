@@ -71,10 +71,8 @@ header {
 
 #logo {
     float: left;
-    margin-left: 30px;
-    font-size: 200%;
-    color: var(--white);
-    text-decoration: none;
+    margin: 5px 0 5px 30px;
+    height: 60px;
 }
 
 #menu {
@@ -302,4 +300,8 @@ footer li {
 
 footer hr {
     height: 16px;
+}
+
+#logo-footer {
+    height: 90px;
 }
