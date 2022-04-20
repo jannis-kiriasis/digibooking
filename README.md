@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Digibooking.com is a digital marketing agency offering services to hotels and B&Bs.
+[Digibooking.com](https://jannis-kiriasis.github.io/digibooking/) is a digital marketing agency offering services to hotels and B&Bs.
 
 There is a good demand worldwide for hotel, B&B and rental businesses marketing. 
 
