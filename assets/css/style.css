@@ -181,7 +181,7 @@ margin: 2% auto;
 .search-services-light-blue {
     background: var(--light-blue);
     width: 100%;
-    height: 450px;
+    overflow: hidden;
 }
 
 
@@ -208,8 +208,8 @@ margin: 2% auto;
 }
 
 .search-services-white {
-    height: 450px;
     width: 100%;
+    overflow: hidden;
 }
 
 #ppc-image {
@@ -326,5 +326,7 @@ footer hr {
         margin: 0 auto;
         width: 300px;
     }
+
 }     
+
 
