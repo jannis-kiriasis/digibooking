@@ -320,13 +320,20 @@ footer hr {
 
 /* For larger to medium screens size from 768px wide and down */
 
+/* Services.html */
+
 @media screen and (max-width: 768px) {
     footer > div > div {
         float: none;
-        margin: 0 auto;
+        margin: 2% auto;
         width: 300px;
     }
 
+    #ppc-image, #seo-image, #booking-image, .left-about-text, .right-about-text {
+        float: none;
+        width: 100%;
+        margin: 2% auto;
+    }
 }     
 
 
