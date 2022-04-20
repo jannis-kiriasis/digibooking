@@ -315,3 +315,16 @@ footer hr {
 #logo-footer {
     height: 90px;
 }
+
+/* Media queries */
+
+/* For larger to medium screens size from 768px wide and down */
+
+@media screen and (max-width: 768px) {
+    footer > div > div {
+        float: none;
+        margin: 0 auto;
+        width: 300px;
+    }
+}     
+
