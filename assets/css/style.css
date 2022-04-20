@@ -374,7 +374,14 @@ footer hr {
     }
 }     
 
+/* For small screens size from 499px wide and down */
 
+@media screen and (max-width: 499px) {
+    #clients img + img + img + img {
+        display: none;
+    }
 
+}
+ 
 
 
