@@ -153,11 +153,11 @@ By [rawpixels.com](https://www.rawpixels.com)
 
 ## Issues fixed
 
-Fit 2 columns with width 50% and margin on the same row. The total width + margin is above 100%. Solution: use box-sizing:border-box and the margin width is included in the column width.
+1. Fit 2 columns with width 50% and margin on the same row. The total width + margin is above 100%. Solution: use box-sizing:border-box and the margin width is included in the column width.
+2. Make the button left and right sides completely rounded. Setting a border-radius: 50% will make my button completely rounder. Solution: Set the border-radius to the same dimension as the left and right padding.
+3. Center align horizontally 4 images in a div. Solution: used display: flex and justify-content: center; [stackoverflow](https://stackoverflow.com/questions/10989238/center-image-horizontally-within-a-div)
+4. Make search-services-white and search-services-light-blue grow with their content. Solution: Add overflow:hidden to parent container [stackoverflow](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content)
 
-Make the button left and right sides completely rounded. Setting a border-radius: 50% will make my button completely rounder. Solution: Set the border-radius to the same dimension as the left and right padding.
-
-Center align horizontally 4 images in a div. Solution: used display: flex and justify-content: center; [stackoverflow](https://stackoverflow.com/questions/10989238/center-image-horizontally-within-a-div)
 
 ## Tools Used
 
