@@ -334,6 +334,47 @@ footer hr {
         width: 100%;
         margin: 2% auto;
     }
+
+
+    /* Dropdown menu 
+
+    #dropdown {
+        background-image: url('../images/burger-menu.svg');
+        background-size: contain;
+        float: right;
+        height: 35px;
+        margin: 20px;
+        width: 35px;
+    }
+
+    */
+
+    #menu {
+        background-color: var(--dark-blue);
+        float: left;
+        width: -webkit-fill-available;
+        /*         display: grid; for dropdown */
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    #menu > li {
+        margin: 0 15px 0 15px;
+    }
+
+    #logo {
+        float: none;
+        display: block;
+        margin: auto auto 10px auto;
+        padding-top: 10px;
+    }
+
+    header {
+        height: 124px;
+    }
 }     
+
+
+
 
 
