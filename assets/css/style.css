@@ -382,6 +382,19 @@ footer hr {
     }
 
 }
- 
+
+
+/* index.html our-services 825px width and down */
+
+@media screen and (max-width: 825px) {
+    #our-services {
+        display: grid;
+    }
+
+    .card {
+        width: 98%;
+    }
+}
+
 
 
