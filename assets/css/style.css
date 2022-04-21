@@ -320,14 +320,17 @@ footer hr {
 
 /* For larger to medium screens size from 768px wide and down */
 
-/* Services.html */
-
 @media screen and (max-width: 768px) {
+
+    /* Footer */
+
     footer > div > div {
         float: none;
         margin: 2% auto;
         width: 300px;
     }
+
+    /* Services.html services sections */
 
     #ppc-image, #seo-image, #booking-image, .left-about-text, .right-about-text {
         float: none;
@@ -335,19 +338,7 @@ footer hr {
         margin: 2% auto;
     }
 
-
-    /* Dropdown menu 
-
-    #dropdown {
-        background-image: url('../images/burger-menu.svg');
-        background-size: contain;
-        float: right;
-        height: 35px;
-        margin: 20px;
-        width: 35px;
-    }
-
-    */
+    /* Header */
 
     #menu {
         background-color: var(--dark-blue);
@@ -372,9 +363,37 @@ footer hr {
     header {
         height: 124px;
     }
+
+    /* Hero responsive */
+
+    #hero { 
+        height: max-content;
+        width: 100%;
+    }
+
+    #hero-text, #hero-image {
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    #hero-text > h1, #hero-text > p, #hero-text > a {
+        margin: 32px 0 0 0;
+    }
+
+    #hero-text > a {
+        text-align: center;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }     
 
 /* For small screens size from 499px wide and down */
+
+/* Clientt logos on mobile */
 
 @media screen and (max-width: 499px) {
     #clients img + img + img + img {
@@ -382,7 +401,6 @@ footer hr {
     }
 
 }
-
 
 /* index.html our-services 825px width and down */
 
