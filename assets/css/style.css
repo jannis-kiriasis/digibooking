@@ -187,17 +187,19 @@ margin: 2% auto;
     width: 50%;
     float: left;
     height: 380px;
-    margin: 35px 0;
+    padding: 32px;
+    box-sizing: border-box;
 }
 
 .right-about-text {
     width: 50%;
     float: right;
-    margin-top: 32px;
+    padding: 32px;
+    box-sizing: border-box;
 }
 
 .right-about-text > div {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -214,17 +216,19 @@ margin: 2% auto;
     width: 50%;
     float: right;
     height: 380px;
-    margin: 35px 0;
+    padding: 32px 0;
+    box-sizing: border-box;
 }
 
 .left-about-text {
     width: 50%;
     float: left;
-    margin-top: 32px;
+    padding: 32px;
+    box-sizing: border-box;
 }
 
 .left-about-text > div {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -240,7 +244,8 @@ margin: 2% auto;
     width: 50%;
     float: left;
     height: 380px;
-    margin: 35px 0;
+    padding: 32px 0;
+    box-sizing: border-box;
 }
 
 /* contact form */
@@ -335,7 +340,10 @@ footer hr {
     #ppc-image, #seo-image, #booking-image, .left-about-text, .right-about-text {
         float: none;
         width: 100%;
-        margin: 2% auto;
+    }
+
+    .right-about-text > div, .left-about-text > div {
+        width: 100%;
     }
 
     /* Header */
@@ -393,13 +401,24 @@ footer hr {
 
 /* For small screens size from 499px wide and down */
 
-/* Clientt logos on mobile */
 
 @media screen and (max-width: 499px) {
+
+    /* Clientt logos on mobile */
+
     #clients img + img + img + img {
         display: none;
     }
 
+    /* Services.html services sections */
+
+    .left-about-text, .right-about-text {
+        padding-top: 0;
+    }
+
+    #seo-image, #ppc-image, #booking-image {
+        padding-bottom: 0;
+    }
 }
 
 /* index.html our-services 825px width and down */
