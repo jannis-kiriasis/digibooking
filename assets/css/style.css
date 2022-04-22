@@ -419,6 +419,13 @@ footer hr {
     #seo-image, #ppc-image, #booking-image {
         padding-bottom: 0;
     }
+
+    /* form labels and input fields */
+
+    label, .text-input {
+        width: 90%;
+
+    }
 }
 
 /* index.html our-services 825px width and down */
