@@ -147,16 +147,14 @@ margin: 2% auto;
 
 /* What we do */
 
-.our-services {
+#our-services {
     margin: 32px 0;
     width: 100%;
     text-align: center;
 }
 
 .card {
-    width: 29%;
     margin: 2%;
-    display: inline-block;
 }
 
 .card > img {
@@ -428,7 +426,7 @@ footer hr {
     }
 }
 
-/* index.html our-services 825px width and down */
+/* index.html what we do section 825px width and down */
 
 @media screen and (max-width: 825px) {
     #our-services {
@@ -444,5 +442,12 @@ footer hr {
     }
 }
 
+/* index.html what we do section 825px width and down */
 
+@media screen and (min-width: 826px) {
+
+    #our-services > div {
+        display: flex;
+    }
+}
 
