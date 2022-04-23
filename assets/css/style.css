@@ -101,7 +101,8 @@ header {
 /* Hero styling */
 
 #hero {
-    height: 600px;
+    height: 500px;
+    margin: 50px auto 50px auto;
 }
 
 #hero-text {
@@ -121,15 +122,24 @@ header {
     margin-top: 2em;
 }
 
-#hero-image {
-    background-image: url('../images/home-hero-900x600.jpg');
+#hero-image, #hero-image-services {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
     width: 50%;
     float: right;
-    height: 600px;
+    height: 450px;
     box-sizing: border-box;
+    width: calc(50% - 64px);
+    margin: 32px;
+}
+
+#hero-image {
+    background-image: url('../images/home-hero-900x600.jpg');
+}
+
+#hero-image-services {
+    background-image: url('../images/destination-search.png');
 }
 
 /* clients list */
@@ -379,7 +389,7 @@ footer hr {
         width: 100%;
     }
 
-    #hero-text, #hero-image {
+    #hero-text, #hero-image, #hero-image-services {
         width: 80%;
         margin: 0 auto;
         float: none;
