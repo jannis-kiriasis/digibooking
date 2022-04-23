@@ -424,7 +424,7 @@ footer hr {
     }
     /* Hero banner and text */
     #hero-text > h1, #hero-text > p, #hero a {
-        margin: 32px;
+        margin: 32px !important;
     }
 }
 
