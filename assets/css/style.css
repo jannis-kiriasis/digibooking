@@ -135,7 +135,7 @@ header {
 }
 
 #hero-image {
-    background-image: url('../images/home-hero-900x600.jpg');
+    background-image: url('../images/hotel-search-booking.webp'), url('../images/hotel-search-booking.jpg') ;
 }
 
 #hero-image-services {
@@ -186,14 +186,30 @@ margin: 2% auto;
     overflow: hidden;
 }
 
-
 #seo-image {
     background-image: url('../images/local-search-seo.png');
+}
+
+#seo-image, #booking-image {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
     width: 50%;
     float: left;
+    height: 380px;
+    padding: 32px;
+    box-sizing: border-box;
+    margin-top: 32px;
+    margin-bottom:32px;
+}
+
+#ppc-image {
+    background-image: url('../images/hotel-search.webp'), url('../images/hotel-search.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 50%;
+    float: right;
     height: 380px;
     padding: 32px;
     box-sizing: border-box;
@@ -218,18 +234,6 @@ margin: 2% auto;
     overflow: hidden;
 }
 
-#ppc-image {
-    background-image: url('../images/hotel-search-900x600.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
-    width: 50%;
-    float: right;
-    height: 380px;
-    padding: 32px 0;
-    box-sizing: border-box;
-}
-
 .left-about-text {
     width: 50%;
     float: left;
@@ -247,15 +251,7 @@ margin: 2% auto;
 }
 
 #booking-image {
-    background-image: url('../images/room-booking-900x600.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
-    width: 50%;
-    float: left;
-    height: 380px;
-    padding: 32px 0;
-    box-sizing: border-box;
+    background-image: url('../images/room-booking.png');
 }
 
 /* contact form */
