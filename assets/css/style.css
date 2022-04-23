@@ -17,6 +17,9 @@ border: none;
 body {
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 300;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 183px;
 }
 
 h1 {
@@ -296,6 +299,9 @@ footer {
     width: 100%;
     text-align: center;
     display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 footer > div > div {
@@ -339,6 +345,10 @@ footer hr {
         float: none;
         margin: 32px auto;
         width: 300px;
+    }
+
+    body {
+        padding-bottom: 415px;
     }
 
     /* Services.html services sections */
