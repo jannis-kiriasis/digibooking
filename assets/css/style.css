@@ -48,6 +48,9 @@ h3 {
     display: inline-block;
     margin-top: 2em;
     text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
 }
 
 .button:hover {
@@ -57,6 +60,11 @@ h3 {
 
 p {
     font-size: 18px;
+}
+
+.max-width-container {
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 /* header and navigation style */
@@ -147,14 +155,17 @@ header {
 
 /* clients list */
 
-#clients {
+#clients-section {
     background-color: var(--light-blue);
+}
+
+#clients {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-#clients > img {
+#clients img {
 margin: 2% auto;
 }
 
