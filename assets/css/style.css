@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,800&display=swap');
 
+/* Global styles */
+
 * {
 margin: 0;
 padding: 0;
@@ -23,20 +25,20 @@ body {
     padding-bottom: 10.25rem;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Playfair Display', 'Times New Roman', serif;
-    font-size: 2.8rem;
     font-weight: 800;
+}
+
+h1 {
+    font-size: 2.8rem;
 }
 
 h2 {
-    font-family: 'Playfair Display', 'Times New Roman', serif;
     font-size: 2rem;
-    font-weight: 800;
 }
 
 h3 {
-    font-family: 'Playfair Display', 'Times New Roman', serif;
     font-size: 1.5rem;
 }
 
@@ -64,7 +66,7 @@ h3 {
     margin: 0 auto;
 }
 
-/* header and navigation style */
+/* header and navigation styling */
 
 header {
     background-color: var(--dark-blue);
@@ -106,7 +108,7 @@ header {
     color: var(--orange) !important;
 }
 
-/* Hero styling */
+/* Hero banner text and image styling */
 
 #hero {
     height: 500px;
@@ -150,7 +152,7 @@ header {
     background-image: url('../images/destination-search.png');
 }
 
-/* clients list */
+/* clients list styling on index.html */
 
 #clients-section {
     background-color: var(--light-blue);
@@ -166,7 +168,7 @@ header {
 margin: 32px auto;
 }
 
-/* What we do */
+/* What we do section styling on index.html */
 
 #our-services {
     margin: 32px 0;
@@ -179,26 +181,21 @@ margin: 32px auto;
 }
 
 .card > img {
-    margin-top: 32px;
     margin-bottom: 32px;
     width: 100px;
     height: 100px;
 }
 
-.card > p {
+.card > p, .card > img {
     margin-top: 32px;
 }
 
-/* search-services */
+/* SEO, PPC and Hotel Ads sections styling on services.html */
 
 .search-services-light-blue {
     background: var(--light-blue);
     width: 100%;
     overflow: hidden;
-}
-
-#seo-image {
-    background-image: url('../images/local-search-seo.png');
 }
 
 #seo-image, #booking-image {
@@ -212,6 +209,13 @@ margin: 32px auto;
     box-sizing: border-box;
     margin-top: 32px;
     margin-bottom:32px;
+}
+#seo-image {
+    background-image: url('../images/local-search-seo.png');
+}
+
+#booking-image {
+    background-image: url('../images/room-booking.png');
 }
 
 #ppc-image {
@@ -228,11 +232,18 @@ margin: 32px auto;
     margin-bottom:32px;
 }
 
-.right-about-text {
+.right-about-text, .left-about-text {
     width: 50%;
-    float: right;
     padding: 5rem;
     box-sizing: border-box;
+}
+
+.left-about-text {
+    float: left;
+}
+
+.right-about-text {
+    float: right;
 }
 
 .right-about-text > div {
@@ -245,13 +256,6 @@ margin: 32px auto;
     overflow: hidden;
 }
 
-.left-about-text {
-    width: 50%;
-    float: left;
-    padding: 5rem;
-    box-sizing: border-box;
-}
-
 .left-about-text > div {
     width: 80%;
     margin: 0 auto;
@@ -261,11 +265,7 @@ margin: 32px auto;
     margin-top: 32px;
 }
 
-#booking-image {
-    background-image: url('../images/room-booking.png');
-}
-
-/* contact form */
+/* Contact form styling on contact.html */
 
 .form-section {
     display: flex;
@@ -299,7 +299,7 @@ form > input {
     display: block;
 }
 
-/* footer */
+/* Footer */
 
 footer {
     background-color: var(--dark-blue);
@@ -343,7 +343,7 @@ footer hr {
 
 /* Media queries */
 
-/* For larger to medium screens size from 768px wide and down */
+/* For medium and small screens size from 768px wide and down */
 
 @media screen and (max-width: 768px) {
 
@@ -359,7 +359,7 @@ footer hr {
         padding-bottom: 26rem;
     }
 
-    /* Services.html services sections */
+    /* Services.html - SEO, PPC and Hotel Ads sections */
 
     #ppc-image, #seo-image, #booking-image, .left-about-text, .right-about-text {
         float: none;
@@ -370,13 +370,12 @@ footer hr {
         width: 100%;
     }
 
-    /* Header */
+    /* Header and navigation styling */
 
     #menu {
         background-color: var(--dark-blue);
         float: left;
         width: -webkit-fill-available;
-        /*         display: grid; for dropdown */
         line-height: 3rem;
         text-align: center;
     }
@@ -395,7 +394,7 @@ footer hr {
         height: 124px;
     }
 
-    /* Hero responsive */
+    /* Hero banner text and image styling */
 
     #hero { 
         height: max-content;
@@ -426,13 +425,13 @@ footer hr {
 
 @media screen and (max-width: 499px) {
 
-    /* Clientt logos on mobile */
+    /* Clientt logos styling on index.html for mobile */
 
     #clients img + img + img + img {
         display: none;
     }
 
-    /* Services.html services sections */
+    /* Services.html - SEO, PPC and Hotel Ads sections styling */
 
     .left-about-text, .right-about-text {
         padding-top: 0;
@@ -442,7 +441,7 @@ footer hr {
         padding-bottom: 0;
     }
 
-    /* form labels and input fields */
+    /* Form labels and input fields styling */
 
     label, .text-input {
         width: 90%;
@@ -450,7 +449,7 @@ footer hr {
     }
 }
 
-/* index.html what we do section 825px width and down */
+/* Index.html - What we do section 825px wide and down */
 
 @media screen and (max-width: 825px) {
     #our-services {
@@ -466,7 +465,7 @@ footer hr {
     }
 }
 
-/* index.html what we do section 825px width and down */
+/* Index.html - What we do section 825px wide and down */
 
 @media screen and (min-width: 826px) {
 
@@ -475,7 +474,7 @@ footer hr {
     }
 }
 
-/* 404 page */
+/* 404 page styling */
 
 #not-found-page {
     margin: 2rem;
