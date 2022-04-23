@@ -428,7 +428,6 @@ footer hr {
 
 /* For small screens size from 499px wide and down */
 
-
 @media screen and (max-width: 499px) {
 
     /* Clientt logos on mobile */
@@ -480,3 +479,13 @@ footer hr {
     }
 }
 
+/* 404 page */
+
+#not-found-page {
+    margin: 2rem;
+    text-align: center;
+}
+
+#not-found-page p {
+    line-height: 3rem;
+}
