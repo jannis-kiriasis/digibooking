@@ -234,7 +234,7 @@ margin: 32px auto;
 
 .right-about-text, .left-about-text {
     width: 50%;
-    padding: 5rem;
+    padding: 5rem 2rem;
     box-sizing: border-box;
 }
 
@@ -465,7 +465,7 @@ footer hr {
     }
 }
 
-/* Index.html - What we do section 825px wide and down */
+/* Index.html - What we do section 825px wide and up */
 
 @media screen and (min-width: 826px) {
 
@@ -483,4 +483,13 @@ footer hr {
 
 #not-found-page p {
     line-height: 3rem;
+}
+
+/* Services.html - SEO, PPC, Hotel Ads section 1150px wide and up */
+
+@media screen and (min-width: 1200px) {
+
+    .right-about-text, .left-about-text {
+        padding: 5rem;
+    }
 }
