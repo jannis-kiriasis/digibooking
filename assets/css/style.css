@@ -231,7 +231,7 @@ margin: 32px auto;
 .right-about-text {
     width: 50%;
     float: right;
-    padding: 2rem;
+    padding: 5rem;
     box-sizing: border-box;
 }
 
@@ -248,7 +248,7 @@ margin: 32px auto;
 .left-about-text {
     width: 50%;
     float: left;
-    padding: 2rem;
+    padding: 5rem;
     box-sizing: border-box;
 }
 
