@@ -14,20 +14,22 @@
 <body>
     <!-- Header and navigation -->
     <header>
-        <a href="index.html"><img id="logo" src="assets/images/digibooking.png" alt="Digibooking logo"></a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="services.html">Services</a>
-                </li>
-                <li>
-                    <a href="contact.html" class="active">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="max-width-container">
+            <a href="index.html" aria-label="Link to homepage"><img id="logo" src="assets/images/digibooking.png" alt="Digibooking logo"></a>
+            <nav aria-label="navigation menu">
+                <ul id="menu">
+                    <li>
+                        <a href="index.html" aria-label="Current page - link to homepage">Home</a>
+                    </li>
+                    <li>
+                        <a href="services.html" aria-label="Link to services">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="active" aria-label="Link to contact us">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!-- Form -->
     <section id="form-section">
@@ -54,14 +56,14 @@
                 <textarea class="text-input" id="message" name="message" rows="7" placeholder="Add your requirements here and a brief description of your business." required></textarea>   
             </div>
 
-            <input class="button" type="submit" value="Send">
+            <input class="button" type="submit" value="Send" aria-label="Send the message">
         </form>
     </section>
-<!-- Footer -->
+    <!-- Footer -->
     <footer>
         <div class="max-width-container">
             <div>
-                <a href="index.html"><img id="logo-footer" src="assets/images/digibooking-logo-footer.png" alt="Digibooking logo"></a>
+                <a href="index.html" aria-label="Link to homepage"><img id="logo-footer" src="assets/images/digibooking-logo-footer.png" alt="Digibooking logo"></a>
             </div>
             <div>
                 <ul>
@@ -77,20 +79,16 @@
             <div>
                 <ul class="socials">
                     <li>
-                        <a href="https://facebook.com" target="_blank" rel="noopener" 
-                        aria-label="Visit our Facebook page (opens in a new tab")><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab")><i class="fa-brands fa-facebook"></i></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com" target="_blank" rel="noopener" 
-                        aria-label="Visit our Twitter page (opens in a new tab")><i class="fa-brands fa-twitter"></i></i></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab")><i class="fa-brands fa-twitter"></i></i></a>
                     </li>
                     <li>
-                        <a href="https://youtube.com" target="_blank" rel="noopener" 
-                        aria-label="Visit our youtube page (opens in a new tab")><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens in a new tab")><i class="fa-brands fa-youtube"></i></a>
                     </li>
                     <li>
-                        <a href="https://instagram.com" target="_blank" rel="noopener" 
-                        aria-label="Visit our Instagram page (opens in a new tab")><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab")><i class="fa-brands fa-instagram"></i></a>
                     </li>
                 </ul>
             </div>
