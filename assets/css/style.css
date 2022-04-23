@@ -71,6 +71,7 @@ h3 {
 header {
     background-color: var(--dark-blue);
     height: 75px;
+    overflow: hidden;
 }
 
 #logo, #menu {
@@ -393,32 +394,6 @@ footer hr {
     header {
         height: 124px;
     }
-
-    /* Hero banner text and image styling */
-
-    #hero { 
-        height: max-content;
-        width: 100%;
-    }
-
-    #hero-text, #hero-image, #hero-image-services {
-        width: 80%;
-        margin: 0 auto;
-        float: none;
-    }
-
-    #hero-text > h1, #hero-text > p, #hero-text > a {
-        margin: 32px 0 0 0;
-    }
-
-    #hero-text > a {
-        text-align: center;
-        width: 80%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
 }     
 
 /* For small screens size from 499px wide and down */
@@ -447,11 +422,18 @@ footer hr {
         width: 90%;
 
     }
+    /* Hero banner and text */
+    #hero-text > h1, #hero-text > p, #hero a {
+        margin: 32px;
+    }
 }
 
-/* Index.html - What we do section 825px wide and down */
+/* For screens 825px wide and down */
 
 @media screen and (max-width: 825px) {
+
+    /* What we do section on index.html */
+
     #our-services {
         display: grid;
     }
@@ -462,6 +444,36 @@ footer hr {
         display: block;
         padding: 2rem;
         box-sizing: border-box;
+    }
+
+    /* Hero banner text and image styling */
+
+    #hero { 
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        height: fit-content;
+        height: -webkit-fill-available;
+    }
+        
+    #hero-text {
+        float: none;
+        position: absolute;
+        width: 100%;
+        background: var(--dark-blue);
+        background: linear-gradient(180deg, rgba(32,23,103,1) 0%, rgba(32,23,103,0.8) 80%, rgba(234,243,250,1) 100%);
+        color: var(--white);
+        height: inherit
+    }
+        
+    #hero-image, #hero-image-services {
+        float: none;
+         width: 100%;
+    }
+        
+    #hero-text > h1, #hero-text > p, #hero a {
+        margin: 32px 64px;
     }
 }
 
@@ -491,5 +503,14 @@ footer hr {
 
     .right-about-text, .left-about-text {
         padding: 5rem;
+    }
+}
+
+/* h1 styling for screens below 600px wide */
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 200%;
     }
 }
