@@ -469,7 +469,8 @@ footer hr {
         
     #hero-image, #hero-image-services {
         float: none;
-         width: 100%;
+        width: 100%;
+        margin: 32px 0;
     }
         
     #hero-text > h1, #hero-text > p, #hero a {
