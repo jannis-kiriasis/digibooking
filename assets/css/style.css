@@ -267,7 +267,7 @@ margin: 32px auto;
 
 /* Contact form styling on contact.html */
 
-.form-section {
+#form-section {
     display: flex;
     justify-content: center;
     width: 100%;
