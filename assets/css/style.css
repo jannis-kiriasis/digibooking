@@ -400,7 +400,7 @@ footer hr {
 
 @media screen and (max-width: 499px) {
 
-    /* Clientt logos styling on index.html for mobile */
+    /* Index.html - Client logos styling for mobile */
 
     #clients img + img + img + img {
         display: none;
