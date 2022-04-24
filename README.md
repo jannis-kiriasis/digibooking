@@ -75,16 +75,16 @@ Now that we know digibooking.com offering and their target audience, we are look
 ### Global features
 This is a list of features that appear on every page.
 
-1.	Logo and navigation 
-The logo and navigation menu is the same across every page of the website. This allows users to find their way through the website easily. 
+1.	**Logo and navigation**\
+    The logo and navigation menu is the same across every page of the website. This allows users to find their way through the website easily. 
 
-As an industry standard, the logo links back to the homepage.
+    As an industry standard, the logo links back to the homepage.
 
-2.	Hero image with page headline
-The hero image and headline block appear on every page. It is tailored to the page content. It gives a good first idea of the page content.
+2.	**Hero image with page headline**\
+    The hero image and headline block appear on every page. It is tailored to the page content. It gives a good first idea of the page content.
 
-3.	Footer
-The footer is also the same across every page of the website. It includes contact details, address and social networks external links.
+3.	**Footer**\
+    The footer is also the same across every page of the website. It includes contact details, address and social networks external links.
 
 ### Homepage features
 4.	Hero image with page headline
@@ -124,9 +124,9 @@ In the following paragraph I’m going to explain what features address user nee
 
 ![Color Palette](./README-files/color-palette.png)
 
-All the colors used have been testes for accessibility and achieved WCAG AA at minimum.
-[Color contrast test: Orange on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=EF695D&bcolor=201767) - Used for navigation links hover color with bold attribute.
-[Color contrast test: White on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767) - Used in header, footer and button color hover on screens below 825px wide.
+All the colors used have been testes for accessibility and achieved WCAG AA at minimum.\
+[Color contrast test: Orange on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=EF695D&bcolor=201767) - Used for navigation links hover color with bold attribute.\
+[Color contrast test: White on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767) - Used in header, footer and button color hover on screens below 825px wide.\
 [Color contrast test: White on orange](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767) - Used on buttons with bold attribute (large text).
 
 ### Google Fonts
@@ -142,7 +142,7 @@ The fallback fonts used are Times New Roman for headings and Helvetica for body 
 4. Make search-services-white and search-services-light-blue grow with their content. Solution: Add overflow:hidden to parent container [stackoverflow](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content)
 
 
-## Tools Used
+## Technologies used
 
 - Resize and edit images: [Pixlr.com](https://pixlr.com/)
 - Transform png to svg: [Convertio.co](https://convertio.co/it/png-svg/)
@@ -233,12 +233,12 @@ I've tested whether the user needs have been satisfied with the features created
 
 |     User stories                                                                                                                     |     Features                            | Result   |
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|----------|
-|     As a first-time visitor, I want to easily understand the main purpose of the site                                                | 4, 8                                |     PASS |
+|     As a first-time visitor, I want to easily understand the main purpose of the site                                                | 4, 6                                |     PASS |
 |     As a first-time visitor, I want to be able to navigate the website easily                                                        | 1, plus   various internal links    |     PASS |
-|     As a first-time visitor, I want to understand what services digibooking.com offer                                                | 8, 10, 11, 12, 13                   |     PASS |
+|     As a first-time visitor, I want to understand what services digibooking.com offer                                                | 6, 7, 8, 9, 10                      |     PASS |
 |     As a first-time visitor, I want to get an idea of how trusted the website (agency) is                                            | 5                                   |     PASS |
-|     As a returning visitor, I want to get in touch with Digibooking and find out the best way to contact                             | 3, 17                               |     PASS |
-|     As a returning visitor, I want to know when the best time is to get in touch with Digibooking customer service or sales teams    | 17                                      |     PASS |
+|     As a returning visitor, I want to get in touch with Digibooking and find out the best way to contact                             | 3, 11                               |     PASS |
+|     As a returning visitor, I want to know when the best time is to get in touch with Digibooking customer service or sales teams    | 3                                      |     PASS |
 |     As a frequent visitor, I want to find the agency address in case of an on-site meeting                                           | 3                                       |     PASS |
 
 ## Deployement
