@@ -264,3 +264,15 @@ I've tested whether the user needs have been satisfied with the features created
 |     As a returning visitor, I want to get in touch with Digibooking and find out the best way to contact                             | 3, 17                               |     PASS |
 |     As a returning visitor, I want to know when the best time is to get in touch with Digibooking customer service or sales teams    | 17                                      |     PASS |
 |     As a frequent visitor, I want to find the agency address in case of an on-site meeting                                           | 3                                       |     PASS |
+
+## Deployement
+
+I've deployed the website on GitHub Pages. The website was developed on Gitpod and pushed to its GitHub repository usying git command lines in the terminal. Everytime a commit pushed to the website's repository updates the html and css files, GitHub Pages automatically updates the live demo.
+To deploy the website:
+1. from the GitHub repository, click on 'settings'
+2. find and click on pages on the setting sidebar menu
+3. selecte the branch to be used. In this case 'main'
+4. Refresh the page and in few minutes, the following message will appear if the website was deployed correctly
+![website published](./README-files/website-published.png)
+
+To run the website locally, use your preferred text editor and paste `git clone https://github.com/jannis-kiriasis/digibooking.git` into your terminal. To find more cloning options click on the 'code' dropdown in the [digibooking repository](https://github.com/jannis-kiriasis/digibooking/).
