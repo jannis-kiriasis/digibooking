@@ -416,12 +416,18 @@ footer hr {
         padding-bottom: 0;
     }
 
-    /* Form labels and input fields styling */
+    /* Form, labels and input fields styling */
+
+    #form-section {
+        margin: 32px;
+        display: block;
+        width: -webkit-fill-available;
+    }
 
     label, .text-input {
-        width: 90%;
-
+       width: -webkit-fill-available;
     }
+
     /* Hero banner and text */
     #hero-text > h1, #hero-text > p, #hero a {
         margin: 32px !important;
