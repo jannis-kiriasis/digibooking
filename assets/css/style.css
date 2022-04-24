@@ -67,6 +67,10 @@ h3 {
     margin: 0 auto;
 }
 
+input, textarea {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
 /* header and navigation styling */
 
 header {
