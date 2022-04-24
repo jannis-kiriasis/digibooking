@@ -11,7 +11,7 @@ border: none;
 :root {
     --dark-blue: #201767;
     --blue: #004491;
-    --orange: #f27355;
+    --orange: #EF695D;
     --white: #ffffff;
     --light-blue: #EAF3FA;
   }
@@ -54,6 +54,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     max-width: fit-content;
+    font-weight: 400;
 }
 
 .button:hover {
@@ -72,6 +73,7 @@ header {
     background-color: var(--dark-blue);
     height: 75px;
     overflow: hidden;
+    font-weight: 400;
 }
 
 #logo, #menu {
