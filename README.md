@@ -2,13 +2,20 @@
 
 ## Introduction
 
-[Digibooking.com](https://jannis-kiriasis.github.io/digibooking/) is a digital marketing agency offering services to hotels and B&Bs.
+[Digibooking live](https://jannis-kiriasis.github.io/digibooking/)\
+[Digibooking repository](https://github.com/jannis-kiriasis/digibooking)
+
+Digibooking is a digital marketing agency offering services to hotels and B&Bs.
+
+![Digibooking responsive design](./README-files/ami-responsivedesign.is.png)\
 
 There is a good demand worldwide for hotel, B&B and rental businesses marketing. 
 
 Just look at Google Ads keyword planner data. In the UK only there are 1k monthly searches for “hotel marketing agency”. This doesn’t include variation of the keyphrase and keywords for associated services such as “hotel seo services” or “hotel digital marketing agency”.
 
 Google “Hotel marketing agency” and you’ll find million of results. Literally.
+
+![Hotel marketing agency](./README-files/hotel-marketing-search-results.png)\
 
 In the past, tourists used to explore and book their holidays by going to physical travel agents. 
 
@@ -187,3 +194,36 @@ Test that the different aspects of the website work as intended.
 |     Form submission                  |     Check form submission   input names are appropriate and all fields are submitted.                   |     The input name submitted   are descriptive and no field can be left blank.    |     PASS              |
 |     Interactivity                    |     Check that   navigation and internal links visually change on mouse hover.                          |     Links and buttons   change color on mouse hover.                              |     PASS              |
 |     Navigation                       |     Check that the current   page is identifiable in the navigation.                                    |     The currently   active page link is orange in navigation.                     |     PASS              |
+
+### Browser compatibilty
+
+All the functionality tests have been carried out and achieved a PASS on the latest versions of the following browsers:
+- Google Chrome
+- Safari
+- Firefox
+- Microsoft Edge
+
+### Responsiveness testing
+
+All the functionality tests have been carried and achieved a PASS on the following screen resolutions:
+- 365x667 (iPhone SE)
+- 540x720 (Surface Duo)
+- 1280x800 (Nest Hub Max)
+- 2560x1600 (Macbook Pro M1)
+
+The website has also been tested for rensiveness on ami.responsivedesign.is with the following results:
+- [index.html](http://ami.responsivedesign.is/?url=https://jannis-kiriasis.github.io/digibooking/index.html)
+- [services.html](http://ami.responsivedesign.is/?url=https://jannis-kiriasis.github.io/digibooking/services.html)
+- [contact.html](http://ami.responsivedesign.is/?url=https://jannis-kiriasis.github.io/digibooking/contact.html)
+
+### Lighthouse testing
+Overall, the lighthouse report is very positive. 
+
+![Lighthouse report](./README-files/lighthouse-report.png)\
+[Lighthouse report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjannis-kiriasis.github.io%2Fdigibooking%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+
+Performance on mobile devices can be further optimised by reducing the Largest Contentful Paint and the First Contentful Paint.
+
+- The FCP can be optimised by reducing the number of Critical Request Chains: Not using Fontawesome and Google Fonts is a solution to further improve the performance score.
+
+- The LCP can be optimised by using a CDN to serve images (the hero images are the LCP) or by removing the hero images from mobile hero banners.
