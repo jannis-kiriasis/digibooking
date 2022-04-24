@@ -167,3 +167,23 @@ By [rawpixels.com](https://www.rawpixels.com)
 - Other icons: [Flaticon](https://www.flaticon.com/)
 - Create transparent baackground for illustrations: [Adobe](https://www.adobe.com/express/feature/image/)
 - Create CSS gradient [cssgradient](https://cssgradient.io/)
+
+## Testing
+
+### Functionality testing
+
+Test that the different aspects of the website work as intended.
+
+|     Test Label                       |     Test Action                                                                                         |     Expected Outcome                                                              |     Test Outcome      |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----------------------|
+|     Header and   navigation links    |     Click on all header   internal links to verify they work (all pages).                               |     No links return a   404 error.                                                |     PASS all pages    |
+|     Header and   navigation links    |     Click on all header   internal links to verify they link to the right pages (all pages).            |     All links should   link to the pages described in their anchor texts.         |     PASS all pages    |
+|     Internal links                   |     Clink on   index.html and services.html internal links to verify they work.                         |     No links return a   404 error.                                                |     PASS all pages    |
+|     Internal links                   |     Clink on   index.html and services.html internal links to verify they link to the right   pages.    |     All links should   link to the pages described in their anchor texts.         |     PASS all pages    |
+|     External links                   |     Click on all   external links and verify that they (footer links).                                  |     No links return a   404 error.                                                |     PASS all pages    |
+|     External links                   |     Click on all   external links and verify that they open in a new tab (footer links).                |     All external   links open in a new tab.                                       |     PASS all pages    |
+|     Form completion                  |     Complete a form   and verify all fields are set to required.                                        |     Form won’t submit   if a field is missing.                                    |     PASS              |
+|     Form validation                  |     Complete a form   and verify the correct field types are used (eg. Email)                           |     Form won’t submit   if the fields aren’t correctly completed.                 |     PASS              |
+|     Form submission                  |     Check form submission   input names are appropriate and all fields are submitted.                   |     The input name submitted   are descriptive and no field can be left blank.    |     PASS              |
+|     Interactivity                    |     Check that   navigation and internal links visually change on mouse hover.                          |     Links and buttons   change color on mouse hover.                              |     PASS              |
+|     Navigation                       |     Check that the current   page is identifiable in the navigation.                                    |     The currently   active page link is orange in navigation.                     |     PASS              |

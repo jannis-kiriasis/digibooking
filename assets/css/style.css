@@ -481,6 +481,11 @@ footer hr {
     #hero-text > h1, #hero-text > p, #hero a {
         margin: 32px 64px;
     }
+
+    /* Button */
+    .button:hover {
+        border: 1px solid var(--white);
+    }
 }
 
 /* Index.html - What we do section 825px wide and up */
