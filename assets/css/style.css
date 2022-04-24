@@ -69,6 +69,7 @@ h3 {
 
 input, textarea {
     font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 1.125rem;
 }
 
 /* header and navigation styling */
