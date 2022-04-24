@@ -22,7 +22,7 @@ body {
     font-size: 1.125rem;
     position: relative;
     min-height: 100%;
-    padding-bottom: 10.25rem;
+    padding-bottom: 11rem;
 }
 
 h1, h2, h3 {
@@ -353,7 +353,7 @@ footer hr {
     }
 
     body {
-        padding-bottom: 26rem;
+        padding-bottom: 27rem;
     }
 
     /* Services.html - SEO, PPC and Hotel Ads sections */
