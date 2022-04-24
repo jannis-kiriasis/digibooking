@@ -522,7 +522,7 @@ footer hr {
 
 /* Header styling for screens below 316px wide */
 
-@media screen and (max-width: 316px) {
+@media screen and (max-width: 324px) {
     header {
         height: 170px;
     }
