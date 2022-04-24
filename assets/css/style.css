@@ -492,7 +492,7 @@ footer hr {
 /* 404 page styling */
 
 #not-found-page {
-    margin: 2rem;
+    margin: 2rem auto;
     text-align: center;
 }
 
