@@ -181,6 +181,7 @@ margin: 32px auto;
 
 .card {
     margin: 2%;
+    width: 33%;
 }
 
 .card > img {
