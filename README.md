@@ -2,12 +2,12 @@
 
 ## Introduction
 
-[Digibooking live](https://jannis-kiriasis.github.io/digibooking/)\
+[Digibooking live](https://jannis-kiriasis.github.io/digibooking/)
 [Digibooking repository](https://github.com/jannis-kiriasis/digibooking)
 
 Digibooking is a digital marketing agency offering services to hotels and B&Bs.
 
-![Digibooking responsive design](./README-files/ami-responsivedesign.is.png)\
+![Digibooking responsive design](./README-files/ami-responsivedesign.is.png)
 
 There is a good demand worldwide for hotel, B&B and rental businesses marketing. 
 
@@ -15,7 +15,7 @@ Just look at Google Ads keyword planner data. In the UK only there are 1k monthl
 
 Google “Hotel marketing agency” and you’ll find million of results. Literally.
 
-![Hotel marketing agency](./README-files/hotel-marketing-search-results.png)\
+![Hotel marketing agency](./README-files/hotel-marketing-search-results.png)
 
 In the past, tourists used to explore and book their holidays by going to physical travel agents. 
 
@@ -127,35 +127,35 @@ In the following paragraph I’m going to explain what features address user nee
 
 ### Colors
 
-[ add images]
+![Color Palette](./README-files/color-palette.png)
 
-[Color contrast test results](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767)
+All the colors used have been testes for accessibility and achieved WCAG AA at minimum.
+[Color contrast test: Orange on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=EF695D&bcolor=201767) - Used for navigation links hover color with bold attribute.
+[Color contrast test: White on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767) - Used in header, footer and button color hover on screens below 825px wide.
+[Color contrast test: White on orange](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767) - Used on buttons with bold attribute (large text).
 
 ### Google Fonts
-Playfair display for headings
-Open Sans for body
+[Playfair display](https://fonts.google.com/specimen/Playfair+Display) for headings
+[Open Sans](https://fonts.google.com/specimen/Open+Sans) for body elements
+The fallback fonts used are Times New Roman for headings and Helvetica for body elements.
 
 ## Attributions
 
 ### Hotel booking illustration attributions
-[Hotel booking vector created by pch.vector - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)
-
-[Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking) 
-
-[Helpline vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/helpline)
-
-[Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking) 
+[Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)\
+[Helpline vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/helpline)\
+[Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)\
+[Cartoon city vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/cartoon-city)\
+[Mobile map vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/mobile-map)
 
 ### Hotel logos 
 
 By [rawpixels.com](https://www.rawpixels.com)
 
-### Icons 
+### Social icons 
 
-[Keyword icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/keyword)
-
-[Money icons created by itim2101 - Flaticon](https://www.flaticon.com/free-icons/money")
-
+[Keyword icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/keyword)\
+[Money icons created by itim2101 - Flaticon](https://www.flaticon.com/free-icons/money")\
 [Booking icons created by Icongeek26 - Flaticon](https://www.flaticon.com/free-icons/booking)
 
 ## Issues fixed
@@ -227,3 +227,17 @@ Performance on mobile devices can be further optimised by reducing the Largest C
 - The FCP can be optimised by reducing the number of Critical Request Chains: Not using Fontawesome and Google Fonts is a solution to further improve the performance score.
 
 - The LCP can be optimised by using a CDN to serve images (the hero images are the LCP) or by removing the hero images from mobile hero banners.
+
+### User stories testing
+
+I've tested whether the user needs have been satisfied with the features created.
+
+|     User stories                                                                                                                     |     Features                            | Result   |
+|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|----------|
+|     As a first-time visitor, I want to easily understand the main purpose of the site                                                | 4, 8                                |     PASS |
+|     As a first-time visitor, I want to be able to navigate the website easily                                                        | 1, plus   various internal links    |     PASS |
+|     As a first-time visitor, I want to understand what services digibooking.com offer                                                | 8, 10, 11, 12, 13                   |     PASS |
+|     As a first-time visitor, I want to get an idea of how trusted the website (agency) is                                            | 5                                   |     PASS |
+|     As a returning visitor, I want to get in touch with Digibooking and find out the best way to contact                             | 3, 17                               |     PASS |
+|     As a returning visitor, I want to know when the best time is to get in touch with Digibooking customer service or sales teams    | 17                                      |     PASS |
+|     As a frequent visitor, I want to find the agency address in case of an on-site meeting                                           | 3                                       |     PASS |
