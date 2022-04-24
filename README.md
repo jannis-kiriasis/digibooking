@@ -177,6 +177,29 @@ By [rawpixels.com](https://www.rawpixels.com)
 
 ## Testing
 
+I've carried out the folling tests:
+1. [HTML validation](#html-validation)
+2. [CSS validation](#css-validation)
+3. [Fuctionality testing](#functionality-testing)
+4. [Browsers compatibility](#browser-compatibilty)
+5. [Responsiveness testing](#responsiveness-testing)
+6. [Lighthouse testing](#lighthouse-testing)
+7. [User stories testing](#user-stories-testing)
+
+### HTML validation
+All the pages passed the html validation with no error or warnings.
+- [index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fjannis-kiriasis.github.io%2Fdigibooking%2Findex.html)\
+![inde.html html test](./README-files/html-test-index.png)
+- [services.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fjannis-kiriasis.github.io%2Fdigibooking%2Fservices.html)\
+![services.html test](./README-files/html-test-services.png)
+- [contact.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fjannis-kiriasis.github.io%2Fdigibooking%2Fcontact.html)\
+![contact.html](./README-files/html-test-contact.png)
+
+### CSS validation
+Style.css passed the css validation with no errors or warnings.
+- [css validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjannis-kiriasis.github.io%2Fdigibooking%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)\
+![css validation](./README-files/css-validation.png)
+
 ### Functionality testing
 
 Test that the different aspects of the website work as intended.
