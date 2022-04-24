@@ -289,10 +289,6 @@ label, .text-input {
     width: 300px;
 }
 
-form > input {
-    width: -webkit-fill-available;
-}
-
 .text-input {
     border: 1px solid var(--dark-blue);
     border-radius: 5px;
@@ -376,7 +372,7 @@ footer hr {
     #menu {
         background-color: var(--dark-blue);
         float: left;
-        width: -webkit-fill-available;
+        width: 100%;
         line-height: 3rem;
         text-align: center;
     }
@@ -392,7 +388,7 @@ footer hr {
     }
 
     header {
-        height: 124px;
+        height: 150px;
     }
 }     
 
@@ -421,11 +417,11 @@ footer hr {
     #form-section {
         margin: 32px;
         display: block;
-        width: -webkit-fill-available;
+        width: auto;
     }
 
     label, .text-input {
-       width: -webkit-fill-available;
+       width: 90%;
     }
 
     /* Hero banner and text */
@@ -460,7 +456,7 @@ footer hr {
         overflow: hidden;
         margin: 0;
         height: fit-content;
-        height: -webkit-fill-available;
+        height: 100%;
     }
         
     #hero-text {
@@ -470,7 +466,7 @@ footer hr {
         background: var(--dark-blue);
         background: linear-gradient(180deg, rgba(32,23,103,1) 0%, rgba(32,23,103,0.8) 80%, rgba(234,243,250,1) 100%);
         color: var(--white);
-        height: inherit
+        height: inherit;
     }
         
     #hero-image, #hero-image-services {
@@ -522,3 +518,10 @@ footer hr {
     }
 }
 
+/* Header styling for screens below 316px wide */
+
+@media screen and (max-width: 316px) {
+    header {
+        height: 170px;
+    }
+}
