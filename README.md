@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[Digibooking live](https://jannis-kiriasis.github.io/digibooking/)
+[Digibooking live](https://jannis-kiriasis.github.io/digibooking/)\
 [Digibooking repository](https://github.com/jannis-kiriasis/digibooking)
 
 Digibooking is a digital marketing agency offering services to hotels and B&Bs.
