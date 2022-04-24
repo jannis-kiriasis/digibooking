@@ -41,16 +41,17 @@ Digibooking.com is for hotel and B&Bs managers looking for Google Search service
 - Direct booking system with channel manager
 
 ## Table of contents
--	User Experience (UX)
--	Features
--	Where user stories meet features
--	Wireframes
--	Designs
--	Technologies Used
--	Testing
--	Known Bugs
--	Deployment
--	Acknowledgements
+-	[User Experience (UX)](#user-experience-ux)
+-	[Features](#features)
+-	[Where user stories meet features](#where-user-stories-meet-features)
+-	[Wireframes](#wireframes)
+-	[Designs](#design)
+-	[Technologies used](#technologies-used)
+-	[Testing](#testing)
+-	[Known bugs]()
+-	[Deployment](#deployement)
+-	[Credits](#credits)
+-   [Acknologements](#acknolodgements)
 
 ## User Experience (UX)
 Now that we know digibooking.com offering and their target audience, we are looking at the needs website visitors may have.
@@ -59,13 +60,12 @@ Now that we know digibooking.com offering and their target audience, we are look
 ### First time visitor goals
 - As a first-time visitor, I want to easily understand the main purpose of the site
 - As a first-time visitor, I want to be able to navigate the website easily
-- As a first-time visitor, I want to understand what services digibooking.com offer
-- As a first-time visitor, I want to get an idea of how trusted the website (agency) is and what their customers say
-- As a first-time visitor, I want to understand what the quality of the work delivered for existing clients is
+- As a first-time visitor, I want to understand what services Digibooking offer
+- As a first-time visitor, I want to get an idea of how trusted the website (agency) is
 
 ### Returning visitor goals
 - As a returning visitor, I want to get in touch with digibooking.com and find out the best way to contact
-- As a returning visitor, I want to know when the best time is to get in touch with digibooking.com customer service or sales teams
+- As a returning visitor, I want to know when the best time is to get in touch with Digibooking customer service or sales teams
 
 ### Frequent visitor goals
 - As a frequent visitor, I want to find the agency address in case of an on-site meeting
@@ -89,37 +89,32 @@ The footer is also the same across every page of the website. It includes contac
 ### Homepage features
 4.	Hero image with page headline
 5.	Top clients
-6.	Value proposition
-7.	Awards
-8.	What we do
-9.	Testimonial
+6.	What we do
 
 ### Services features
-10.	Hero image with page headline
-11.	PPC services
-12.	Seo services
-13.	Google Bookings
-14.	Direct bookings
-15.	Testimonial
+7.	Hero image with page headline
+8.	SEO services
+9.	PPC services
+10.	Google Hotel Ads
 
 ### Contact features
-16.	Hero image with page headline
-17.	Contact form
-18.	Testimonial
+11.	Contact form
+
+### Others
+12. 404 page
 
 ## Where user stories meet features
 In the following paragraph I’m going to explain what features address user needs (user stories).
 
 |User stories                                                                                                                       |Features                      |
 |----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| As a first-time visitor, I want to easily understand   the main purpose of the site                                                    | 4, 6, 8                           |
-| As a first-time visitor, I want to be able to   navigate the website easily                                                            | 1, plus various internal links    |
-| As a first-time visitor, I want to understand what   services digibooking.com offer                                                    | 8, 10,   11, 12, 13, 14           |
-| As a first-time visitor, I want to get an idea of   how trusted the website (agency) is and what their customers say                   | 5, 7, 9,   15, 18                 |
-| As a first-time visitor, I want to understand what   the quality of the work delivered for existing clients is                         | 7                                 |
-| As a returning visitor, I want to get in touch with   digibooking.com and find out the best way to contact                             | 3, 17                             |
-| As a returning visitor, I want to know when the best   time is to get in touch with digibooking.com customer service or sales teams    | 3, 17                             |
-| As a frequent visitor, I want to find the agency   address in case of an on-site meeting                                               | 3, 17                             |
+| As a first-time visitor, I want to easily understand the main purpose of the site                                                    | 4, 6                              |
+| As a first-time visitor, I want to be able to navigate the website easily                                                            | 1, plus various internal links    |
+| As a first-time visitor, I want to understand what services digibooking.com offer                                                    | 6, 7, 8, 9, 10                    |
+| As a first-time visitor, I want to get an idea of how trusted the website (agency) is                                                | 5                                 |
+| As a returning visitor, I want to get in touch with digibooking.com and find out the best way to contact                             | 3, 11                             |
+| As a returning visitor, I want to know when the best time is to get in touch with digibooking.com customer service or sales teams    | 3                                 |
+| As a frequent visitor, I want to find the agency address in case of an on-site meeting                                               | 3                                 |
 
 ## Wireframes
 
@@ -138,25 +133,6 @@ All the colors used have been testes for accessibility and achieved WCAG AA at m
 [Playfair display](https://fonts.google.com/specimen/Playfair+Display) for headings
 [Open Sans](https://fonts.google.com/specimen/Open+Sans) for body elements
 The fallback fonts used are Times New Roman for headings and Helvetica for body elements.
-
-## Attributions
-
-### Hotel booking illustration attributions
-[Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)\
-[Helpline vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/helpline)\
-[Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)\
-[Cartoon city vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/cartoon-city)\
-[Mobile map vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/mobile-map)
-
-### Hotel logos 
-
-By [rawpixels.com](https://www.rawpixels.com)
-
-### Social icons 
-
-[Keyword icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/keyword)\
-[Money icons created by itim2101 - Flaticon](https://www.flaticon.com/free-icons/money")\
-[Booking icons created by Icongeek26 - Flaticon](https://www.flaticon.com/free-icons/booking)
 
 ## Issues fixed
 
@@ -276,3 +252,24 @@ To deploy the website:
 ![website published](./README-files/website-published.png)
 
 To run the website locally, use your preferred text editor and paste `git clone https://github.com/jannis-kiriasis/digibooking.git` into your terminal. To find more cloning options click on the 'code' dropdown in the [digibooking repository](https://github.com/jannis-kiriasis/digibooking/).
+
+## Credits
+
+### Hotel booking illustration attributions
+[Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)\
+[Helpline vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/helpline)\
+[Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)\
+[Cartoon city vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/cartoon-city)\
+[Mobile map vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/mobile-map)
+
+### Hotel logos 
+
+By [rawpixels.com](https://www.rawpixels.com)
+
+### Social icons 
+
+[Keyword icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/keyword)\
+[Money icons created by itim2101 - Flaticon](https://www.flaticon.com/free-icons/money")\
+[Booking icons created by Icongeek26 - Flaticon](https://www.flaticon.com/free-icons/booking)
+
+## Acknolodgments
