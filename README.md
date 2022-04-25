@@ -5,14 +5,17 @@
 
 ## Table of contents
 -   [Introduction](#introduction)
--	[User Experience (UX)](#user-experience-ux)
+-	[User Experience (UX)](#user-experience-ux---user-stories)
 -	[Features](#features)
 -	[Where user stories meet features](#where-user-stories-meet-features)
 -	[Wireframes](#wireframes)
+-   [Features left to implement](#features-left-to-implement)
 -	[Designs](#design)
--	[Technologies used](#technologies-used)
+-   [Accessibility](#accessibility)
+-   [SEO](#seo)
+-	[Technologies and tools used](#technologies-and-tools-used)
 -	[Testing](#testing)
--	[Known bugs]()
+-	[Issues fixed](#issues-fixed)
 -	[Deployment](#deployement)
 -	[Credits](#credits)
 -   [Acknologements](#acknolodgements)
@@ -51,10 +54,9 @@ Digibooking is for hotel and B&Bs managers (or those resposible for the hotels' 
 - PPC: Google Ads services to be on top of the search for important queries.
 - Google Hotel Ads: To compete directly with the OTAs (Online travel agents) on the search.
 
-## User Experience (UX)
+## User Experience (UX) - user stories
 Now that we are familiar with Digibooking target audience and offering, we are looking at the needs website visitors may have. Someone getting to know Digibooking is interested mainly in the services the agency offers and how to get in touch. Following, you can find the users' stories covering the main users' needs.
 
-## User stories
 ### First time visitor goals
 - As a first-time visitor, I want to easily understand the main purpose of the site
 - As a first-time visitor, I want to be able to navigate the website easily
@@ -86,14 +88,14 @@ This is a list of features that appear on every page.
 2.	**Hero image with page headline**
     The hero image and headline block appears on index.html and services.html. It is tailored to the page content. It gives a good first idea of the page content.
 
-    **Hero mobile**\
+    **Hero mobile**  
     ![Hero-mobile](./README-files/hero-mobile.png)
 
-    **Hero desktop**\
+    **Hero desktop**  
     ![Hero-desktop](./README-files/hero-desktop.png)
 
-3.	**Footer**
-    The footer is also the same across every page of the website. It includes the agency contact details, address and social networks external links.
+3.	**Footer**  
+    The footer is also the same across every page of the website. It includes the agency contact details, address and social networks external links. All the external links open in new tabs.
 
     ![Footer](./README-files/footer.png)
 
@@ -101,54 +103,52 @@ The following features are unique and appear only on the page specified.
 
 ### Homepage features - index.html
 
-4.	**Hero image with page headline**
+4.	**Hero image with page headline**  
     While the block used is the same appearing on services.html, its content is unique. The heading 'Do you want to boost your hotel online direct bookings?' provides to the users a very clear idea of what the website is about. The sub-line 'Leverage the power of Google Search to get the bookings you need' also specify that the online services Digibooking provide are related to Google Search.
 
     The illustration reminds of an online hotel room booking.
 
-    **Hero mobile**
-
+    **Hero mobile**  
     ![Hero-mobile](./README-files/hero-mobile.png)
 
-    **Hero desktop**
-
+    **Hero desktop**  
     ![Hero-desktop](./README-files/hero-desktop.png)
 
-5.	**Top clients**
+5.	**Top clients**  
     This feature includes 4 hotel logos, 4 clients of Digibooking. On smaller screens, the number of logos reduces to 3 for screen real estate availabilty reasons.
 
     ![Clients](./README-files/clients.png)
 
 
-6.	**What we do**
+6.	**What we do**  
     This section clearly says that Digibooking services are SEO, PPC and Googel Hotel Ads. Those are the 3 services offered. There is also an internal link to navigate to the services.html page which includes more information on the services provided.
 
     ![What we do](./README-files/what-we-do.png)
 
 ### Services features - services.html
 
-7.	**Hero image with page headline**
+7.	**Hero image with page headline**  
     The Headline and paragrah of this hero banner explain what services the agency offers and the approach taken.
 
     The illustration reminds of a search for hotels and destinations on a tablet.
 
     ![Hero services desktop](./README-files/hero-services.png)
 
-8.	**SEO services**
+8.	**SEO services**  
     This section explains why and how Digibooking do SEO. 
 
     The illustration recalls a local search on a map usying a mobile or tablet.
 
     ![Seo services section](./README-files/seo.png)
 
-9.	**PPC services**
+9.	**PPC services**  
     This section explains why and how Digibooking do PPC.
 
     The illustration recalls an hotel booking done on a mobile device.
 
     ![PPC services section](./README-files/ppc.png)
 
-10.	**Google Hotel Ads**
+10.	**Google Hotel Ads**  
     This section explains why Digibooking offer Google Hotel Ads services.
 
     The illustration recalls a online room booking.
@@ -157,18 +157,19 @@ The following features are unique and appear only on the page specified.
 
 ### Contact page - contact.html
 
-11. **Contact form**
+11. **Contact form**  
 	The contact form includes the basic personal details of the sender, the hotel or b&b website and a text area. All fields are mandatory and users can type 'none' if they don't have a website or they don't want to include a message.
 
     ![Contact form](./README-files/contact-form.png)
 
 ### Others
-12. **Custom 404 page**
+12. **Custom 404 page**  
     A custom 404 page asks to visitors what page they were looking for.
 
     ![Custom 404 page](./README-files/404-page.png)
 
 ## Where user stories meet features
+
 In the following paragraph, I’m going to match features with user needs (user stories). The features are numbered and the same feature numbers appear in the table below.
 
 |User stories                                                                                                                       |Features                      |
@@ -185,14 +186,16 @@ In the following paragraph, I’m going to match features with user needs (user 
 
 The first draft of the website was completed by creating wireframes using Balsamic. 
 
-- **homepage**\
+- **homepage**   
 ![Homepage wireframe](./README-files/pp1-homepage.png)
 
-- **Services**\
+- **Services**  
 ![Services wireframe](./README-files/pp1-services.png)
 
-- **Contact**\
+- **Contact**  
 ![Contact wireframe](./README-files/pp1-contact.png)
+
+## Features left to implement 
 
 On the first homepage draft, there are 2 sections that haven't been developed. However, they would be a nice addition for future development.
 
@@ -204,40 +207,70 @@ Both those section address the user need 'As a first-time visitor, I want to get
 
 ## Design
 
+In the following paragraph I'm going to explain the colors, typography and imagery choices.
+
 ### Colors
+
+The first color I wanted to use was a dark blue. Blue it's a calming color, what I had in mind was "Work with us and you won't need to worry about bookings anymore".
+
+As I chose dark blue, I needed an opposite color to create contrast with important elements on the page, such us the buttons. So, orange was my first choice. Then, I was able to find a set of illustrations that worked for this website and so I slighly changes the orange to a salmon/red color to match the color of the images.
 
 ![Color Palette](./README-files/color-palette.png)
 
-All the colors used have been testes for accessibility and achieved WCAG AA at minimum.\
-[Color contrast test: Orange on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=EF695D&bcolor=201767) - Used for navigation links hover color with bold attribute.\
-[Color contrast test: White on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767) - Used in header, footer and button color hover on screens below 825px wide.\
-[Color contrast test: White on orange](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767) - Used on buttons with bold attribute (large text).
+All the colors have been testes for accessibility and achieved WCAG AA at minimum.  
+- [Color contrast test: Orange on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=EF695D&bcolor=201767) - Used for navigation links hover color with bold attribute.  
+- [Color contrast test: White on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767) - Used in header, footer and button color hover on screens below 825px wide.  
+- [Color contrast test: White on orange](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767) - Used on buttons with bold attribute (large text).  
 
-### Google Fonts
+### Typography
+
+The typography was chosen for my liking. Open Sans is a very popular font if not the most popular. I associate Playfair Display to a font possibly used by hotels for their headings and so I did the same.
+
 [Playfair display](https://fonts.google.com/specimen/Playfair+Display) for headings
 [Open Sans](https://fonts.google.com/specimen/Open+Sans) for body elements
+
 The fallback fonts used are Times New Roman for headings and Helvetica for body elements.
 
-## Issues fixed
+### Imagery
 
-1. Fit 2 columns with width 50% and margin on the same row. The total width + margin is above 100%. Solution: use \box-sizing:border-box;\ and the padding width is included in the column width [Stackoverflow](https://stackoverflow.com/questions/14416651/including-margin-for-width-and-height).
-2. Make the button left and right sides completely rounded. Setting a \border-radius: 50%\ will make my button completely rounder. Solution: Set the \border-radius\ to the same dimension as the left and right padding.
-3. Center align horizontally 4 images in a div. Solution: used \display: flex;\ and \justify-content: center;\ [stackoverflow](https://stackoverflow.com/questions/10989238/center-image-horizontally-within-a-div)
-4. Make \search-services-white\ and \search-services-light-blue\ divs grow with their content. Solution: Add \overflow:hidden\ to the parent container [stackoverflow](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content)
+I liked the idea of using illustrations. I was able to find a set of illustrations that fit perfectly. Each image used resumes the content of the section. There is a very good connections between the images and the text especially noticiable on the services page.
 
+## Accessibility
 
-## Technologies used
+As mentioned above all the font colors passed a contrast test.
+I've also used alt tags to describe images and area labels to descrive links and images used as background images.
+The pages have been clearly structured usign semantic HTML markup.
+I've also tested the website's accessibility on [webaccessibility.com](https://www.webaccessibility.com/).  
+![webaccessibility result](./README-files/accessibility-result.png)
 
+## SEO
+
+Keywords have been used in the headings of the Homepage and Services. Each page addresses a specific search intent:
+- the homepage, the need of a digital marketing agency to grow online bookings
+- the services page, the need of SEO and PPC services for hotels
+
+The title tags also include target keywords and the length displays in full on Google Search. Test with this [title tag length checker](https://www.highervisibility.com/seo/tools/serp-snippet-optimizer/).
+
+The most common metadata including index and follow attributes and a canonical link have been included on every page.
+
+The lighthouse score is also optimal. A Lighthouse test is available few paragraphs below.
+
+## Technologies and tools used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 - Resize and edit images: [Pixlr.com](https://pixlr.com/)
 - Transform png to svg: [Convertio.co](https://convertio.co/it/png-svg/)
 - Social icons: [Fontawesome](https://fontawesome.com/)
 - Other icons: [Flaticon](https://www.flaticon.com/)
 - Create transparent baackground for illustrations: [Adobe](https://www.adobe.com/express/feature/image/)
 - Create CSS gradient [cssgradient](https://cssgradient.io/)
+- Illustrations [freepik](https://www.freepik.com)
 
 ## Testing
 
 I've carried out the folling tests:
+
 1. [HTML validation](#html-validation)
 2. [CSS validation](#css-validation)
 3. [Fuctionality testing](#functionality-testing)
@@ -247,6 +280,7 @@ I've carried out the folling tests:
 7. [User stories testing](#user-stories-testing)
 
 ### HTML validation
+
 All the pages passed the html validation with no error or warnings.
 - [index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fjannis-kiriasis.github.io%2Fdigibooking%2Findex.html)\
 ![inde.html html test](./README-files/html-test-index.png)
@@ -256,13 +290,14 @@ All the pages passed the html validation with no error or warnings.
 ![contact.html](./README-files/html-test-contact.png)
 
 ### CSS validation
+
 Style.css passed the css validation with no errors or warnings.
 - [css validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjannis-kiriasis.github.io%2Fdigibooking%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)\
 ![css validation](./README-files/css-validation.png)
 
 ### Functionality testing
 
-Test that the different aspects of the website work as intended.
+I've tested that the different aspects of the website work as intended.
 
 |     Test Label                       |     Test Action                                                                                         |     Expected Outcome                                                              |     Test Outcome      |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----------------------|
@@ -295,7 +330,7 @@ All the functionality tests have been carried and achieved a PASS on the followi
 - 1280x800 (Nest Hub Max)
 - 2560x1600 (Macbook Pro M1)
 
-The website has also been tested for rensiveness on ami.responsivedesign.is with the following results:
+The website has also been tested for responsiveness on [ami.responsivedesign.is](https://www.ami.responsivedesign.is/) with the following results:
 - [index.html](http://ami.responsivedesign.is/?url=https://jannis-kiriasis.github.io/digibooking/index.html)
 - [services.html](http://ami.responsivedesign.is/?url=https://jannis-kiriasis.github.io/digibooking/services.html)
 - [contact.html](http://ami.responsivedesign.is/?url=https://jannis-kiriasis.github.io/digibooking/contact.html)
@@ -326,6 +361,13 @@ I've tested whether the user needs have been satisfied with the features created
 |     As a returning visitor, I want to know when the best time is to get in touch with Digibooking customer service or sales teams    | 3                                      |     PASS |
 |     As a frequent visitor, I want to find the agency address in case of an on-site meeting                                           | 3                                       |     PASS |
 
+## Issues fixed
+
+1. Fit 2 columns with width 50% and margin on the same row. The total width + margin is above 100%. Solution: use \box-sizing:border-box;\ and the padding width is included in the column width [Stackoverflow](https://stackoverflow.com/questions/14416651/including-margin-for-width-and-height).
+2. Make the button left and right sides completely rounded. Setting a \border-radius: 50%\ will make my button completely rounder. Solution: Set the \border-radius\ to the same dimension as the left and right padding.
+3. Center align horizontally 4 images in a div. Solution: used \display: flex;\ and \justify-content: center;\ [stackoverflow](https://stackoverflow.com/questions/10989238/center-image-horizontally-within-a-div)
+4. Make \search-services-white\ and \search-services-light-blue\ divs grow with their content. Solution: Add \overflow:hidden\ to the parent container [stackoverflow](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content)
+
 ## Deployement
 
 I've deployed the website on GitHub Pages. The website was developed on Gitpod and pushed to its GitHub repository usying git command lines in the terminal. Everytime a commit pushed to the website's repository updates the html and css files, GitHub Pages automatically updates the live demo.
@@ -341,13 +383,14 @@ To run the website locally, use your preferred text editor and paste `git clone 
 ## Credits
 
 ### Hotel booking illustration attributions
+
 [Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)\
 [Helpline vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/helpline)\
 [Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)\
 [Cartoon city vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/cartoon-city)\
 [Mobile map vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/mobile-map)
 
-### Hotel logos 
+### Clients logos 
 
 By [rawpixels.com](https://www.rawpixels.com)
 
@@ -358,3 +401,8 @@ By [rawpixels.com](https://www.rawpixels.com)
 [Booking icons created by Icongeek26 - Flaticon](https://www.flaticon.com/free-icons/booking)
 
 ## Acknolodgments
+
+I previously worked in digital marketing agency having as a client a big hotel chain. I've also helped my family business, a short term lettings bussiness, grow online using SEO, PPC and Google Hotel Ads. Hence I came up with this website. I'm aslo an SEO specialist and I have been building and working on websites using Content Management Systems for the past 6 years.
+
+Brian Macharia, my mentor, helped me testing the website funtionalities and providing excellent reccommandations.
+
