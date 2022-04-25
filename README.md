@@ -1,9 +1,23 @@
 # Project 1 - Digibooking
 
-## Introduction
-
-[Digibooking live](https://jannis-kiriasis.github.io/digibooking/)\
+[Digibooking live demo](https://jannis-kiriasis.github.io/digibooking/)\
 [Digibooking repository](https://github.com/jannis-kiriasis/digibooking)
+
+## Table of contents
+-   [Introduction](#introduction)
+-	[User Experience (UX)](#user-experience-ux)
+-	[Features](#features)
+-	[Where user stories meet features](#where-user-stories-meet-features)
+-	[Wireframes](#wireframes)
+-	[Designs](#design)
+-	[Technologies used](#technologies-used)
+-	[Testing](#testing)
+-	[Known bugs]()
+-	[Deployment](#deployement)
+-	[Credits](#credits)
+-   [Acknologements](#acknolodgements)
+
+## Introduction
 
 Digibooking is a digital marketing agency offering services to hotels and B&Bs.
 
@@ -19,39 +33,26 @@ Google “Hotel marketing agency” and you’ll find million of results. Litera
 
 In the past, tourists used to explore and book their holidays by going to physical travel agents. 
 
-Today, travellers book online on the many Online Travel Agents (OTAs) available (booking.com, hotels.com etc).
+Today, holiday makers book online on the many Online Travel Agents (OTAs) available (booking.com, hotels.com etc).
 
 Hotel managers had to learn how to use OTAs, generate online direct bookings and manage all the digital marketing channels to remain competitive.
 
 Nowadays, being online isn’t enough. 
 
-Some hotels hire entire digital marketing teams, others, outsource digital marketing services from agencies.
+Some hotels hire entire digital marketing teams while others outsource digital marketing services from agencies.
 
-Digibooking.com specialise in digital marketing services for hotels to grow their online bookings from Google Search.
+Digibooking specialise in digital marketing services for hotels to grow their online bookings from Google Search.
 
 ### Who is Digibooking for?
-Digibooking.com is for hotel and B&Bs managers looking for Google Search services and a direct booking system. Hotel managers looking to create a website from scratch are also welcome.
+Digibooking is for hotel and B&Bs managers (or those resposible for the hotels' online marketing) looking to outsource Google Search services. 
 
 ### What Digibooking offer:
-- SEO
-- PPC
-- Google Hotel Ads
-
-## Table of contents
--	[User Experience (UX)](#user-experience-ux)
--	[Features](#features)
--	[Where user stories meet features](#where-user-stories-meet-features)
--	[Wireframes](#wireframes)
--	[Designs](#design)
--	[Technologies used](#technologies-used)
--	[Testing](#testing)
--	[Known bugs]()
--	[Deployment](#deployement)
--	[Credits](#credits)
--   [Acknologements](#acknolodgements)
+- SEO: Search Engine Optimisation to grow the hotel / b&bs awareness on Google's organic results.
+- PPC: Google Ads services to be on top of the search for important queries.
+- Google Hotel Ads: To compete directly with the OTAs (Online travel agents) on the search.
 
 ## User Experience (UX)
-Now that we are familiar with Digibooking target audience and offering, we are looking at the needs website visitors may have.
+Now that we are familiar with Digibooking target audience and offering, we are looking at the needs website visitors may have. Someone getting to know Digibooking is interested mainly in the services the agency offers and how to get in touch. Following, you can find the users' stories covering the main users' needs.
 
 ## User stories
 ### First time visitor goals
@@ -69,32 +70,72 @@ Now that we are familiar with Digibooking target audience and offering, we are l
 
 ## Features
 
+In the following paragraphs, we are going to see what features appear on the website and where they encouter the users' needs.
+
 ### Global features
+
 This is a list of features that appear on every page.
 
 1.	**Logo and navigation**\
-    The logo and navigation menu is the same across every page of the website. This allows users to find their way through the website easily. 
+
+    The logo and navigation menu is the same across every page of the website. This allows users to find their way through the website easily wherever they are. 
 
     As an industry standard, the logo links back to the homepage.
 
 2.	**Hero image with page headline**\
-    The hero image and headline block appear on every page. It is tailored to the page content. It gives a good first idea of the page content.
+
+    The hero image and headline block appears on index.html and services.html. It is tailored to the page content. It gives a good first idea of the page content.
 
 3.	**Footer**\
-    The footer is also the same across every page of the website. It includes contact details, address and social networks external links.
 
-### Homepage features
-4.	Hero image with page headline
-5.	Top clients
-6.	What we do
+    The footer is also the same across every page of the website. It includes the agency contact details, address and social networks external links.
+
+The following features are unique and appear only on the page specified.
+
+### Homepage features - index.html
+
+4.	**Hero image with page headline**\
+
+    While the block used is the same appearing on services.html, its content is unique. The heading 'Do you want to boost your hotel online direct bookings?' provides to the users a very clear idea of what the website is about. The sub-line 'Leverage the power of Google Search to get the bookings you need' also specify that the online services Digibooking provide are related to Google Search.
+
+    The illustration reminds of an online hotel room booking.
+
+5.	**Top clients**\
+
+    This feature includes 4 hotel logos, 4 clients of Digibooking. On smaller screens, the number of logos reduces to 3 for screen real estate availabilty reasons.
+
+6.	**What we do**\
+    
+    This section clearly says that Digibooking do SEO, PPC and Googel Hotel Ads. Those are the 3 services offered. There is also an internal link to navigate to the services.html page which includes more information on the services provided.
 
 ### Services features
-7.	Hero image with page headline
-8.	SEO services
-9.	PPC services
-10.	Google Hotel Ads
+
+7.	**Hero image with page headline**\
+
+    The Headline and paragrah of this hero banner explain what services and the approach taken.
+
+    The illustration reminds of a search for hotels and destinations on a tablet.
+
+8.	**SEO services**\
+
+    This section explain why and how Digibooking do SEO. 
+
+    The illustration recalls a local search on a map usying a mobile or tablet.
+
+9.	**PPC services**\
+
+    This section explain why and how Digibooking do PPC.
+
+    The illustration recalls an hotel booking done on a mobile device.
+
+10.	**Google Hotel Ads**\
+
+    This section explain why Digibooking offer Google Hotel Ads services.
+
+    The illustration recalls a online room booking.
 
 ### Contact features
+
 11.	Contact form
 
 ### Others
