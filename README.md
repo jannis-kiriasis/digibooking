@@ -76,73 +76,100 @@ In the following paragraphs, we are going to see what features appear on the web
 
 This is a list of features that appear on every page.
 
-1.	**Logo and navigation**\
-
+1.	**Logo and navigation**
     The logo and navigation menu is the same across every page of the website. This allows users to find their way through the website easily wherever they are. 
 
     As an industry standard, the logo links back to the homepage.
 
-2.	**Hero image with page headline**\
+    ![Header](./README-files/header.png)
 
+2.	**Hero image with page headline**
     The hero image and headline block appears on index.html and services.html. It is tailored to the page content. It gives a good first idea of the page content.
 
-3.	**Footer**\
+    **Hero mobile**\
+    ![Hero-mobile](./README-files/hero-mobile.png)
 
+    **Hero desktop**\
+    ![Hero-desktop](./README-files/hero-desktop.png)
+
+3.	**Footer**
     The footer is also the same across every page of the website. It includes the agency contact details, address and social networks external links.
+
+    ![Footer](./README-files/footer.png)
 
 The following features are unique and appear only on the page specified.
 
 ### Homepage features - index.html
 
-4.	**Hero image with page headline**\
-
+4.	**Hero image with page headline**
     While the block used is the same appearing on services.html, its content is unique. The heading 'Do you want to boost your hotel online direct bookings?' provides to the users a very clear idea of what the website is about. The sub-line 'Leverage the power of Google Search to get the bookings you need' also specify that the online services Digibooking provide are related to Google Search.
 
     The illustration reminds of an online hotel room booking.
 
-5.	**Top clients**\
+    **Hero mobile**
 
+    ![Hero-mobile](./README-files/hero-mobile.png)
+
+    **Hero desktop**
+
+    ![Hero-desktop](./README-files/hero-desktop.png)
+
+5.	**Top clients**
     This feature includes 4 hotel logos, 4 clients of Digibooking. On smaller screens, the number of logos reduces to 3 for screen real estate availabilty reasons.
 
-6.	**What we do**\
-    
-    This section clearly says that Digibooking do SEO, PPC and Googel Hotel Ads. Those are the 3 services offered. There is also an internal link to navigate to the services.html page which includes more information on the services provided.
+    ![Clients](./README-files/clients.png)
 
-### Services features
 
-7.	**Hero image with page headline**\
+6.	**What we do**
+    This section clearly says that Digibooking services are SEO, PPC and Googel Hotel Ads. Those are the 3 services offered. There is also an internal link to navigate to the services.html page which includes more information on the services provided.
 
-    The Headline and paragrah of this hero banner explain what services and the approach taken.
+    ![What we do](./README-files/what-we-do.png)
+
+### Services features - services.html
+
+7.	**Hero image with page headline**
+    The Headline and paragrah of this hero banner explain what services the agency offers and the approach taken.
 
     The illustration reminds of a search for hotels and destinations on a tablet.
 
-8.	**SEO services**\
+    ![Hero services desktop](./README-files/hero-services.png)
 
+8.	**SEO services**
     This section explains why and how Digibooking do SEO. 
 
     The illustration recalls a local search on a map usying a mobile or tablet.
 
-9.	**PPC services**\
+    ![Seo services section](./README-files/seo.png)
 
+9.	**PPC services**
     This section explains why and how Digibooking do PPC.
 
     The illustration recalls an hotel booking done on a mobile device.
 
-10.	**Google Hotel Ads**\
+    ![PPC services section](./README-files/ppc.png)
 
+10.	**Google Hotel Ads**
     This section explains why Digibooking offer Google Hotel Ads services.
 
     The illustration recalls a online room booking.
 
-### Contact features
+    ![Google Hotel Ads](./README-files/google-hotel-ads.png)
 
-11.	Contact form
+### Contact page - contact.html
+
+11. **Contact form**
+	The contact form includes the basic personal details of the sender, the hotel or b&b website and a text area. All fields are mandatory and users can type 'none' if they don't have a website or they don't want to include a message.
+
+    ![Contact form](./README-files/contact-form.png)
 
 ### Others
-12. 404 page
+12. **Custom 404 page**
+    A custom 404 page asks to visitors what page they were looking for.
+
+    ![Custom 404 page](./README-files/404-page.png)
 
 ## Where user stories meet features
-In the following paragraph I’m going to explain what features address user needs (user stories).
+In the following paragraph, I’m going to match features with user needs (user stories). The features are numbered and the same feature numbers appear in the table below.
 
 |User stories                                                                                                                       |Features                      |
 |----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
@@ -155,6 +182,25 @@ In the following paragraph I’m going to explain what features address user nee
 | As a frequent visitor, I want to find the agency address in case of an on-site meeting                                               | 3                                 |
 
 ## Wireframes
+
+The first draft of the website was completed by creating wireframes using Balsamic. 
+
+- **homepage**\
+![Homepage wireframe](./README-files/pp1-homepage.png)
+
+- **Services**\
+![Services wireframe](./README-files/pp1-services.png)
+
+- **Contact**\
+![Contact wireframe](./README-files/pp1-contact.png)
+
+On the first homepage draft, there are 2 sections that haven't been developed. However, they would be a nice addition for future development.
+
+The first not developed section is an intro paragraph to a case study. That would link to a possible 4th page that explain what results have been achieve for a specific client and how. 
+
+The second not developed section would include recend awards that the angecy won.
+
+Both those section address the user need 'As a first-time visitor, I want to get an idea of how trusted the website (agency) is'.
 
 ## Design
 
@@ -174,10 +220,10 @@ The fallback fonts used are Times New Roman for headings and Helvetica for body 
 
 ## Issues fixed
 
-1. Fit 2 columns with width 50% and margin on the same row. The total width + margin is above 100%. Solution: use box-sizing:border-box and the margin width is included in the column width.
-2. Make the button left and right sides completely rounded. Setting a border-radius: 50% will make my button completely rounder. Solution: Set the border-radius to the same dimension as the left and right padding.
-3. Center align horizontally 4 images in a div. Solution: used display: flex and justify-content: center; [stackoverflow](https://stackoverflow.com/questions/10989238/center-image-horizontally-within-a-div)
-4. Make search-services-white and search-services-light-blue grow with their content. Solution: Add overflow:hidden to parent container [stackoverflow](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content)
+1. Fit 2 columns with width 50% and margin on the same row. The total width + margin is above 100%. Solution: use \box-sizing:border-box;\ and the padding width is included in the column width [Stackoverflow](https://stackoverflow.com/questions/14416651/including-margin-for-width-and-height).
+2. Make the button left and right sides completely rounded. Setting a \border-radius: 50%\ will make my button completely rounder. Solution: Set the \border-radius\ to the same dimension as the left and right padding.
+3. Center align horizontally 4 images in a div. Solution: used \display: flex;\ and \justify-content: center;\ [stackoverflow](https://stackoverflow.com/questions/10989238/center-image-horizontally-within-a-div)
+4. Make \search-services-white\ and \search-services-light-blue\ divs grow with their content. Solution: Add \overflow:hidden\ to the parent container [stackoverflow](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content)
 
 
 ## Technologies used
