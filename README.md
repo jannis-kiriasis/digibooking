@@ -118,19 +118,19 @@ The following features are unique and appear only on the page specified.
 
 8.	**SEO services**\
 
-    This section explain why and how Digibooking do SEO. 
+    This section explains why and how Digibooking do SEO. 
 
     The illustration recalls a local search on a map usying a mobile or tablet.
 
 9.	**PPC services**\
 
-    This section explain why and how Digibooking do PPC.
+    This section explains why and how Digibooking do PPC.
 
     The illustration recalls an hotel booking done on a mobile device.
 
 10.	**Google Hotel Ads**\
 
-    This section explain why Digibooking offer Google Hotel Ads services.
+    This section explains why Digibooking offer Google Hotel Ads services.
 
     The illustration recalls a online room booking.
 
