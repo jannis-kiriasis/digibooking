@@ -193,6 +193,7 @@ Test that the different aspects of the website work as intended.
 |     Form submission                  |     Check form submission   input names are appropriate and all fields are submitted.                   |     The input name submitted   are descriptive and no field can be left blank.    |     PASS              |
 |     Interactivity                    |     Check that   navigation and internal links visually change on mouse hover.                          |     Links and buttons   change color on mouse hover.                              |     PASS              |
 |     Navigation                       |     Check that the current   page is identifiable in the navigation.                                    |     The currently   active page link is orange in navigation.                     |     PASS              |
+|     404 links                       |     Clik on a non existing url and verify it lands on the custom 404 page.                                    |      A non existing page links to the custon 404.html                    |     PASS              |
 
 ### Browser compatibilty
 
