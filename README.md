@@ -29,16 +29,13 @@ Some hotels hire entire digital marketing teams, others, outsource digital marke
 
 Digibooking.com specialise in digital marketing services for hotels to grow their online bookings from Google Search.
 
-[Add website screenshots]
-
-### Who is digibooking.com for?
+### Who is Digibooking for?
 Digibooking.com is for hotel and B&Bs managers looking for Google Search services and a direct booking system. Hotel managers looking to create a website from scratch are also welcome.
 
-### What digibooking.com offer:
+### What Digibooking offer:
 - SEO
 - PPC
-- Google hotel manager
-- Direct booking system with channel manager
+- Google Hotel Ads
 
 ## Table of contents
 -	[User Experience (UX)](#user-experience-ux)
@@ -54,7 +51,7 @@ Digibooking.com is for hotel and B&Bs managers looking for Google Search service
 -   [Acknologements](#acknolodgements)
 
 ## User Experience (UX)
-Now that we know digibooking.com offering and their target audience, we are looking at the needs website visitors may have.
+Now that we are familiar with Digibooking target audience and offering, we are looking at the needs website visitors may have.
 
 ## User stories
 ### First time visitor goals
@@ -64,7 +61,7 @@ Now that we know digibooking.com offering and their target audience, we are look
 - As a first-time visitor, I want to get an idea of how trusted the website (agency) is
 
 ### Returning visitor goals
-- As a returning visitor, I want to get in touch with digibooking.com and find out the best way to contact
+- As a returning visitor, I want to get in touch with Digibooking and find out the best way to contact
 - As a returning visitor, I want to know when the best time is to get in touch with Digibooking customer service or sales teams
 
 ### Frequent visitor goals
@@ -110,10 +107,10 @@ In the following paragraph I’m going to explain what features address user nee
 |----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | As a first-time visitor, I want to easily understand the main purpose of the site                                                    | 4, 6                              |
 | As a first-time visitor, I want to be able to navigate the website easily                                                            | 1, plus various internal links    |
-| As a first-time visitor, I want to understand what services digibooking.com offer                                                    | 6, 7, 8, 9, 10                    |
+| As a first-time visitor, I want to understand what services Digibooking offer                                                    | 6, 7, 8, 9, 10                    |
 | As a first-time visitor, I want to get an idea of how trusted the website (agency) is                                                | 5                                 |
-| As a returning visitor, I want to get in touch with digibooking.com and find out the best way to contact                             | 3, 11                             |
-| As a returning visitor, I want to know when the best time is to get in touch with digibooking.com customer service or sales teams    | 3                                 |
+| As a returning visitor, I want to get in touch with Digibooking and find out the best way to contact                             | 3, 11                             |
+| As a returning visitor, I want to know when the best time is to get in touch with Digibooking customer service or sales teams    | 3                                 |
 | As a frequent visitor, I want to find the agency address in case of an on-site meeting                                               | 3                                 |
 
 ## Wireframes
@@ -236,7 +233,7 @@ I've tested whether the user needs have been satisfied with the features created
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|----------|
 |     As a first-time visitor, I want to easily understand the main purpose of the site                                                | 4, 6                                |     PASS |
 |     As a first-time visitor, I want to be able to navigate the website easily                                                        | 1, plus   various internal links    |     PASS |
-|     As a first-time visitor, I want to understand what services digibooking.com offer                                                | 6, 7, 8, 9, 10                      |     PASS |
+|     As a first-time visitor, I want to understand what services Digibooking offer                                                | 6, 7, 8, 9, 10                      |     PASS |
 |     As a first-time visitor, I want to get an idea of how trusted the website (agency) is                                            | 5                                   |     PASS |
 |     As a returning visitor, I want to get in touch with Digibooking and find out the best way to contact                             | 3, 11                               |     PASS |
 |     As a returning visitor, I want to know when the best time is to get in touch with Digibooking customer service or sales teams    | 3                                      |     PASS |
