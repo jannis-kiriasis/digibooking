@@ -16,12 +16,15 @@ border: none;
     --light-blue: #EAF3FA;
   }
 
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
 body {
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 300;
     font-size: 1.125rem;
-    position: relative;
-    min-height: 100%;
     padding-bottom: 14rem;
 }
 
