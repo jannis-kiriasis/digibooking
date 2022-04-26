@@ -240,7 +240,7 @@ The fallback fonts used are Times New Roman for headings and Helvetica for body 
 
 I liked the idea of using illustrations. I was able to find a set of illustrations that fit perfectly. Each image used recalls the content of the section. There is a very good connections between the images and the text especially noticiable on the services page. All the illustrations used come from [Freepik](https://www.freepik.com/home).
 
-I've used Webp images where possible which is one of the lighest image format. Nowadays, [Wepb is supported by all the major browsers](https://developers.google.com/speed/webp/faq), with [Safari being the last main browser that started supporting webp in 2020](https://caniuse.com/webp) with the release of Safari 14. I've set up fallback urls for the illustrations anyway to garantee support for very old Safari versions. 
+I've used Webp images where possible which is one of the lighest image format. Nowadays, [Wepb is supported by all the major browsers](https://developers.google.com/speed/webp/faq), with [Safari being the last main browser that started supporting webp in 2020](https://caniuse.com/webp) with the release of Safari 14.
 
 I've also used png image where I needed to have a transparent background and svg files for icones to keep them lightweight and pixel perfect.
 
