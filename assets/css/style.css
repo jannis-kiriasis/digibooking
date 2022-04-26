@@ -156,11 +156,11 @@ header {
 }
 
 #hero-image {
-    background-image: url('../images/hotel-search-booking.webp');
+    background-image: url('../images/hotel-search-booking.webp'), url('../images/hotel-search-booking.jpg');
 }
 
 #hero-image-services {
-    background-image: url('../images/destination-search.webp');
+    background-image: url('../images/destination-search.webp'), url('../images/destination-search.jpg');
 }
 
 /* clients list styling on index.html */
@@ -231,7 +231,7 @@ margin: 32px auto;
 }
 
 #ppc-image {
-    background-image: url('../images/hotel-search.webp');
+    background-image: url('../images/hotel-search.webp'), url('../images/hotel-search.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -345,7 +345,7 @@ footer hr {
     height: 16px;
 }
 
-#logo-footer {
+.logo-footer {
     height: 90px;
 }
 
