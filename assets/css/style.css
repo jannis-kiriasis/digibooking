@@ -136,6 +136,7 @@ header {
 #hero-text > h1 {
     margin-top: 15%;
 }
+
 #hero-text > h1, #hero-text > p, #hero-text a {
     margin-left: 20%;
 }
@@ -223,6 +224,7 @@ margin: 32px auto;
     margin-top: 32px;
     margin-bottom:32px;
 }
+
 #seo-image {
     background-image: url('../images/local-search-seo.png');
 }
