@@ -355,7 +355,7 @@ The website has also been tested for responsiveness on [ami.responsivedesign.is]
 ### Lighthouse testing
 Overall, the lighthouse report is very positive. 
 
-![Lighthouse report](./README-files/lighthouse-report.png)\
+![Lighthouse report](./README-files/lighthouse-test.png)  
 [Lighthouse report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjannis-kiriasis.github.io%2Fdigibooking%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
 
 Performance on mobile devices can be further optimised by reducing the Largest Contentful Paint and the First Contentful Paint.
