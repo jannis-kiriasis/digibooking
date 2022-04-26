@@ -384,8 +384,8 @@ I've tested whether the user needs have been satisfied with the features created
 
 1. Fit 2 columns with width 50% and margin on the same row. The total width + margin is above 100%. Solution: use `box-sizing:border-box;` and the padding width is included in the column width [Stackoverflow](https://stackoverflow.com/questions/14416651/including-margin-for-width-and-height).
 2. Make the button left and right sides completely rounded. Setting a `border-radius: 50%` will make my button completely rounder. Solution: Set the `border-radius` to the same dimension as the left and right padding.
-3. Center align horizontally 4 images in a div. Solution: used `display: flex;` and `justify-content: center;` [stackoverflow](https://stackoverflow.com/questions/10989238/center-image-horizontally-within-a-div)
-4. Make `search-services-white` and `search-services-light-blue` divs grow with their content. Solution: Add `overflow:hidden` to the parent container [stackoverflow](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content)
+3. Center align horizontally 4 images in a div. Solution: used `display: flex;` and `justify-content: center;` [stackoverflow](https://stackoverflow.com/questions/10989238/.center-image-horizontally-within-a-div).
+4. Make `search-services-white` and `search-services-light-blue` divs grow with their content. Solution: Add `overflow:hidden` to the parent container [stackoverflow](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content).
 
 ## Deployment
 
@@ -403,11 +403,11 @@ To run the website locally, use your preferred text editor and paste `git clone 
 
 ### Hotel booking illustration attributions
 
-- [Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)\
-- [Helpline vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/helpline)\
-- [Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)\
-- [Cartoon city vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/cartoon-city)\
-- [Mobile map vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/mobile-map)
+- [Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)  
+- [Helpline vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/helpline)  
+- [Hotel booking vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/hotel-booking)  
+- [Cartoon city vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/cartoon-city)  
+- [Mobile map vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/mobile-map)  
 
 ### Clients logos 
 
@@ -415,9 +415,9 @@ To run the website locally, use your preferred text editor and paste `git clone 
 
 ### Digital icons 
 
-- [Keyword icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/keyword)\
-- [Money icons created by itim2101 - Flaticon](https://www.flaticon.com/free-icons/money")\
-- [Booking icons created by Icongeek26 - Flaticon](https://www.flaticon.com/free-icons/booking)
+- [Keyword icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/keyword)  
+- [Money icons created by itim2101 - Flaticon](https://www.flaticon.com/free-icons/money")  
+- [Booking icons created by Icongeek26 - Flaticon](https://www.flaticon.com/free-icons/booking)  
 
 ## Acknowledgements
 
