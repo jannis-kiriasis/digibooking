@@ -58,6 +58,7 @@ h3 {
     margin-right: auto;
     max-width: fit-content;
     font-weight: 400;
+    font-size: 1.25rem;
 }
 
 .button:hover {
