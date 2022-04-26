@@ -16,7 +16,7 @@
 -	[Technologies and tools used](#technologies-and-tools-used)
 -	[Testing](#testing)
 -	[Issues fixed](#issues-fixed)
--	[Deployment](#deployement)
+-	[Deployment](#deployment)
 -	[Credits](#credits)
 -   [Acknowledgements](#acknowledgements)
 
@@ -225,7 +225,7 @@ As secondary colours, I've only used white as the background colour and for some
 All the colours have been tested for accessibility and achieved WCAG AA at minimum.  
 - [Colour contrast test: Orange on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=EF695D&bcolor=201767) - Used for navigation links hover color with bold attribute.  
 - [Colour contrast test: White on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767) - Used in the header, footer and button colour hover on screens below 825px wide.  
-- [Colour contrast test: White on orange](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767) - Used on buttons with bold attribute (large text).  
+- [Colour contrast test: White on orange](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=EF695D) - Used on buttons with bold attribute (large text).  
 
 ### Typography
 
@@ -246,7 +246,7 @@ I've also used png images where I needed to have a transparent background and SV
 
 ## Accessibility
 
-As mentioned above, all the font colours passed a contrast test. During the testing phase, the white fonts on the orange backgrounds (only used to style buttons) resulted low in contrast ratio. One suggestion provided by [Webiam.org](https://webiam.org/) was to bold the text. Doing so gave me a minimum score of WCAG AA for the white fonts on orange background. The rest of the website (which makes the remaining 99%) achieves a score of WCAG AAA.
+As mentioned above, all the font colours passed a contrast test. During the testing phase, the white fonts on the orange backgrounds (only used to style buttons) resulted low in contrast ratio. One suggestion provided by webiam.org was to bold the text. Doing so gave me a minimum score of WCAG AA for the white fonts on orange background. The rest of the website (which makes the remaining 99%) achieves a score of WCAG AAA.
 
 I've also used alt tags to describe images and aria labels to describe links and images used as background images.  
 The pages have been structured using semantic HTML markup.  
@@ -271,15 +271,15 @@ The lighthouse score is also optimal. A Lighthouse test is available a few parag
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
-- Version control: [git](https://git-scm.com/)
+- Version control: [Git](https://git-scm.com/)
 - Public repository: [GitHub](https://github.com/)
 - Resize and edit images: [Pixlr.com](https://pixlr.com/)
 - Transform png to SVG: [Convertio.co](https://convertio.co/it/png-svg/)
 - Social icons: [Fontawesome](https://fontawesome.com/)
 - Other icons: [Flaticon](https://www.flaticon.com/)
-- Create a transparent background for illustrations: [Adobe](https://www.adobe.com/express/feature/image/)
-- Create CSS gradient: [cssgradient](https://cssgradient.io/)
-- Illustrations: [freepik](https://www.freepik.com)
+- Create a transparent background for illustrations: [Adobe](https://www.adobe.com/express/feature/image/transparent-background)
+- Create CSS gradient: [Cssgradient](https://cssgradient.io/)
+- Illustrations: [Freepik](https://www.freepik.com)
 - Google Font: [Display Playfair](https://fonts.google.com/specimen/Playfair+Display)
 - Google Font: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 - Wireframes: [Balsamiq](https://balsamiq.com/)
@@ -291,7 +291,7 @@ I've carried out the following tests:
 1. [HTML validation](#html-validation)
 2. [CSS validation](#css-validation)
 3. [Functionality testing](#functionality-testing)
-4. [Browsers compatibility](#browser-compatibilty)
+4. [Browsers compatibility](#browser-compatibility)
 5. [Responsiveness testing](#responsiveness-testing)
 6. [Lighthouse testing](#lighthouse-testing)
 7. [User stories testing](#user-stories-testing)
@@ -347,7 +347,7 @@ All the functionality tests have been carried out and achieved a PASS on the fol
 - 1280x800 (Nest Hub Max)
 - 2560x1600 (Macbook Pro M1)
 
-The website has also been tested for responsiveness on [ami.responsivedesign.is](https://www.ami.responsivedesign.is/) with the following results:
+The website has also been tested for responsiveness on [ami.responsivedesign.is](http://ami.responsivedesign.is/) with the following results:
 - [index.html](http://ami.responsivedesign.is/?url=https://jannis-kiriasis.github.io/digibooking/index.html)
 - [services.html](http://ami.responsivedesign.is/?url=https://jannis-kiriasis.github.io/digibooking/services.html)
 - [contact.html](http://ami.responsivedesign.is/?url=https://jannis-kiriasis.github.io/digibooking/contact.html)
@@ -416,7 +416,7 @@ To run the website locally, use your preferred text editor and paste `git clone 
 ### Digital icons 
 
 - [Keyword icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/keyword)  
-- [Money icons created by itim2101 - Flaticon](https://www.flaticon.com/free-icons/money")  
+- [Money icons created by itim2101 - Flaticon](https://www.flaticon.com/free-icons/money)  
 - [Booking icons created by Icongeek26 - Flaticon](https://www.flaticon.com/free-icons/booking)  
 
 ## Acknowledgements
