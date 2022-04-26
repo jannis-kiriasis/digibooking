@@ -164,7 +164,7 @@ header {
     background-image: url('../images/destination-search.webp');
 }
 
-/* clients list styling on index.html */
+/* Clients list styling on index.html */
 
 #clients-section {
     background-color: var(--light-blue);
@@ -527,7 +527,7 @@ footer hr {
     }
 }
 
-/* h1 styling for screens below 600px wide */
+/* H1 styling for screens below 600px wide */
 
 @media screen and (max-width: 600px) {
 
