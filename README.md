@@ -430,3 +430,6 @@ I previously worked in a digital marketing agency having as a client a big hotel
 
 Brian Macharia, my mentor, helped me test the website functionalities and provide excellent recommendations.
 
+The first 3 input fields of the [contact form](contact.html) were taken from the Love Running project and edited to fit this website. There isn't a link since it was a challenge I have completed but I believe this is the [sign up form](https://github.com/Code-Institute-Solutions/love-running-lab-solutions/blob/master/signup.html). 
+
+The social links code in the footer also comes from the [Love Running social icons](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/06_site_footer/01_footer_main_structure/index.html) and they have been edited as needed.
