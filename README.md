@@ -308,9 +308,13 @@ All the pages passed the HTML validation with no errors or warnings.
 
 ### CSS validation
 
-Style.css passed the CSS validation with no errors or warnings.
+Style.css passed the CSS validation with no errors.
 - [css validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjannis-kiriasis.github.io%2Fdigibooking%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  
 ![CSS validation](./README-files/css-validation.png)
+
+There is only 1 warning related to `-webkit-appearance: none;` used to style the form submit button. This was used to prevent iPhone / iPad default style. The submit button would otherwise not be styled as declared in the CSS without the webkit extension.  
+
+1[CSS warning](./README-files/css-warning.png)
 
 ### Functionality testing
 
@@ -382,10 +386,12 @@ I've tested whether the user needs have been satisfied with the features created
 
 ## Issues fixed
 
-1. Fit 2 columns with width 50% and margin on the same row. The total width + margin is above 100%. Solution: use `box-sizing:border-box;` and the padding width is included in the column width [Stackoverflow](https://stackoverflow.com/questions/14416651/including-margin-for-width-and-height).
+1. Fit 2 columns with width 50% and margin on the same row. The total width + margin is above 100%. Solution: use `box-sizing:border-box;` and the padding width is included in the column width. [Stackoverflow](https://stackoverflow.com/questions/14416651/including-margin-for-width-and-height).
 2. Make the button left and right sides completely rounded. Setting a `border-radius: 50%` will make my button completely rounder. Solution: Set the `border-radius` to the same dimension as the left and right padding.
-3. Center align horizontally 4 images in a div. Solution: used `display: flex;` and `justify-content: center;` [stackoverflow](https://stackoverflow.com/questions/10989238/.center-image-horizontally-within-a-div).
-4. Make `search-services-white` and `search-services-light-blue` divs grow with their content. Solution: Add `overflow:hidden` to the parent container [stackoverflow](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content).
+3. Center align horizontally 4 images in a div. Solution: used `display: flex;` and `justify-content: center;`. [Stackoverflow](https://stackoverflow.com/questions/10989238/.center-image-horizontally-within-a-div).
+4. Make `search-services-white` and `search-services-light-blue` divs grow with their content. Solution: Add `overflow:hidden` to the parent container. [Stackoverflow](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content).
+5. Override iPhone / iPad default styling of submit button. The button isn't styled as declared in the CSS. Solution: add to the class .button `-webkit-appearance: none;`. [Stackoverflow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone).
+6. Prevent telephone link in footer default styling on iPhone / iPad. Solution: declare the styling of the <a> tag. [Stackoverflow](https://stackoverflow.com/questions/3736807/how-do-i-remove-the-blue-styling-of-telephone-numbers-on-iphone-ios).
 
 ## Deployment
 
