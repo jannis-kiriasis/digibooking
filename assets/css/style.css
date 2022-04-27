@@ -59,6 +59,7 @@ h3 {
     max-width: fit-content;
     font-weight: 400;
     font-size: 1.25rem;
+    -webkit-appearance: none;
 }
 
 .button:hover {
@@ -351,6 +352,10 @@ footer hr {
 
 #logo-footer {
     height: 90px;
+}
+
+footer div ul li a {
+    color: var(--white);
 }
 
 /* Media queries */
