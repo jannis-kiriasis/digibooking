@@ -14,12 +14,12 @@ border: none;
     --orange: #EF695D;
     --white: #ffffff;
     --light-blue: #EAF3FA;
-  }
+}
 
 html {
     position: relative;
     min-height: 100%;
-  }
+}
   
 body {
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -179,7 +179,7 @@ header {
 }
 
 #clients img {
-margin: 32px auto;
+    margin: 32px auto;
 }
 
 /* What we do section styling on index.html */
