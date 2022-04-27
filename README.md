@@ -135,7 +135,7 @@ The following features are unique and appear only on the page specified.
     ![Hero services desktop](./README-files/hero-services.png)
 
 8.	**SEO services**  
-    This section explains why and how Digibooking does SEO. Some holidaymakers know already where to go and so they go straight to look for a hotel. Some others like to be inspired. The second group tend to search for locations and destinations and then book a trip only when they have been inspired. This is the audience Digibooking look to target by doing SEO.
+    This section explains why and how Digibooking does SEO. Some holidaymakers know already where to go and so they go straight to look for a hotel. Some others like to be inspired. The second group tend to search for locations and destinations and then book a trip only when they have been inspired. This is the audience Digibooking look to target by doing SEO for its clients.
 
     The illustration recalls a local search on a map using a mobile or tablet.
 
@@ -149,7 +149,7 @@ The following features are unique and appear only on the page specified.
     ![PPC services section](./README-files/ppc.png)
 
 10.	**Google Hotel Ads**  
-    This section explains why Digibooking offers Google Hotel Ads services. Once holidaymakers chose an accommodation type, they want to find the best price. Google Hotel Ads helps display direct prices for the accommodation selected competing directly with OTA prices since booking directly is often cheaper.
+    This section explains why Digibooking offers Google Hotel Ads services. Once holidaymakers have chosen an accommodation type, they want to find the best price. Google Hotel Ads helps display direct prices for the accommodation selected competing directly with OTA prices since booking directly is often cheaper.
 
     The illustration recalls an online room booking.
 
@@ -180,7 +180,7 @@ In the following paragraph, I’m going to match features with user needs (user 
 | As a first-time visitor, I want to get an idea of how trusted the website (agency) is                                                | 5                                 |
 | As a returning visitor, I want to get in touch with Digibooking and find out the best way to contact                             | 3, 11                             |
 | As a returning visitor, I want to know when the best time is to get in touch with Digibooking customer service or sales teams    | 3                                 |
-| As a frequent visitor, I want to find the agency address in case of an on-site meeting                                               | 3                                 |
+| As a frequent visitor, I want to find the agency's address in case of an on-site meeting                                               | 3                                 |
 
 ## Wireframes
 
@@ -222,7 +222,7 @@ As secondary colours, I've only used white as the background colour and for some
 
 ![Color Palette](./README-files/color-palette.png)
 
-All the colours have been tested for accessibility and achieved WCAG AA at minimum.  
+All the colours have been tested for accessibility and most of the site achieved a WCAG AAA. The white and bold text on the orange background was the only area getting a WCAG AA score.
 - [Colour contrast test: Orange on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=EF695D&bcolor=201767) - Used for navigation links hover color with bold attribute.  
 - [Colour contrast test: White on dark blue](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=201767) - Used in the header, footer and button colour hover on screens below 825px wide.  
 - [Colour contrast test: White on orange](https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=EF695D) - Used on buttons with bold attribute (large text).  
@@ -231,8 +231,7 @@ All the colours have been tested for accessibility and achieved WCAG AA at minim
 
 The typography was chosen for my liking. Open Sans is a very popular font if not the most popular. I associate Playfair Display with a font possibly used by hotels for their headings and so I did the same.
 
-[Playfair display](https://fonts.google.com/specimen/Playfair+Display) for headings
-[Open Sans](https://fonts.google.com/specimen/Open+Sans) for body elements
+I used [Playfair display](https://fonts.google.com/specimen/Playfair+Display) for headings and [Open Sans](https://fonts.google.com/specimen/Open+Sans) for body elements.  
 
 The fallback fonts used are Times New Roman for headings and Helvetica for body elements.
 
@@ -246,7 +245,7 @@ I've also used png images where I needed to have a transparent background and SV
 
 ## Accessibility
 
-As mentioned above, all the font colours passed a contrast test. During the testing phase, the white fonts on the orange backgrounds (only used to style buttons) resulted low in contrast ratio. One suggestion provided by webiam.org was to bold the text. Doing so gave me a minimum score of WCAG AA for the white fonts on orange background. The rest of the website (which makes the remaining 99%) achieves a score of WCAG AAA.
+As mentioned above, all the font colours passed a contrast test. During the testing phase, the white fonts on the orange backgrounds (only used to style buttons) resulted low in contrast ratio. One suggestion provided by webiam.org was to use bold text instead of normal text. Doing so gave me a score of WCAG AA for the white fonts on orange background. The rest of the website (which makes the remaining 99%) achieves a score of WCAG AAA.
 
 I've also used alt tags to describe images and aria labels to describe links and images used as background images.  
 The pages have been structured using semantic HTML markup.  
@@ -314,7 +313,7 @@ Style.css passed the CSS validation with no errors.
 
 There is only 1 warning related to `-webkit-appearance: none;` used to style the form submit button. This was used to prevent iPhone / iPad default style. The submit button would otherwise not be styled as declared in the CSS without the webkit extension.  
 
-1[CSS warning](./README-files/css-warning.png)
+![CSS warning](./README-files/css-warning.png)
 
 ### Functionality testing
 
@@ -326,7 +325,7 @@ I've tested that the different aspects of the website work as intended.
 |     Header and   navigation links    |     Click on all header   internal links to verify they link to the right pages (all pages).            |     All links should   link to the pages described in their anchor texts.         |     PASS all pages    |
 |     Internal links                   |     Clink on   index.html and services.html internal links to verify they work.                         |     No links return a   404 error.                                                |     PASS all pages    |
 |     Internal links                   |     Clink on   index.html and services.html internal links to verify they link to the right   pages.    |     All links should   link to the pages described in their anchor texts.         |     PASS all pages    |
-|     External links                   |     Click on all   external links and verify that they (footer links).                                  |     No links return a   404 error.                                                |     PASS all pages    |
+|     External links                   |     Click on all   external links and verify that they work (footer links).                                  |     No links return a   404 error.                                                |     PASS all pages    |
 |     External links                   |     Click on all   external links and verify that they open in a new tab (footer links).                |     All external   links open in a new tab.                                       |     PASS all pages    |
 |     Form completion                  |     Complete a form   and verify all fields are set to required.                                        |     The form won’t submit   if a field is missing.                                    |     PASS              |
 |     Form validation                  |     Complete a form   and verify the correct field types are used (eg. Email)                           |     The form won’t submit   if the fields aren’t correctly completed.                 |     PASS              |
@@ -386,7 +385,7 @@ I've tested whether the user needs have been satisfied with the features created
 
 ## Issues fixed
 
-1. Fit 2 columns with width 50% and margin on the same row. The total width + margin is above 100%. Solution: use `box-sizing:border-box;` and the padding width is included in the column width. [Stackoverflow](https://stackoverflow.com/questions/14416651/including-margin-for-width-and-height).
+1. Fit 2 columns with width 50% and margin on the same row. The total width + margin is above 100%. Solution: use padding instead of margin and `box-sizing:border-box;`. The padding width is included in the column width. [Stackoverflow](https://stackoverflow.com/questions/14416651/including-margin-for-width-and-height).
 2. Make the button left and right sides completely rounded. Setting a `border-radius: 50%` will make my button completely rounder. Solution: Set the `border-radius` to the same dimension as the left and right padding.
 3. Center align horizontally 4 images in a div. Solution: used `display: flex;` and `justify-content: center;`. [Stackoverflow](https://stackoverflow.com/questions/10989238/.center-image-horizontally-within-a-div).
 4. Make `search-services-white` and `search-services-light-blue` divs grow with their content. Solution: Add `overflow:hidden` to the parent container. [Stackoverflow](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content).
@@ -398,7 +397,7 @@ I've tested whether the user needs have been satisfied with the features created
 I've deployed the website on GitHub Pages. The website was developed on Gitpod and pushed to its GitHub repository using git command lines in the terminal. Every time a commit pushed to the website's repository updates the HTML and CSS files, GitHub Pages automatically updates the live demo.
 To deploy the website:
 1. from the GitHub repository, click on 'settings'
-2. find and click on pages on the setting sidebar menu
+2. find and click on 'pages' on the setting sidebar menu
 3. select the branch to be used. In this case 'main'
 4. Refresh the page and in a few minutes, the following message will appear if the website was deployed correctly
 ![website published](./README-files/website-published.png)
